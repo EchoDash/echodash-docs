@@ -1,41 +1,36 @@
-# Website
+# EchoDash Documentation Site
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This is the documentation site for [echodash.com](https://echodash.com), built using [Docusaurus](https://docusaurus.io/).
 
 ### Installation
 
 ```
-$ yarn
+$ npm install
 ```
 
 ### Local Development
 
 ```
-$ yarn start
+$ npm start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+This command starts a local development server on port 3001 and opens up a browser window. Most changes are reflected live without having to restart the server.
 
 ### Build
 
 ```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
+$ npm run build
 
 ```
-$ USE_SSH=true yarn deploy
-```
 
-Not using SSH:
+This command:
+1. Generates static content into the `build` directory
+2. Automatically copies the built files to `../echodash-mvp/public/`
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+The docs will be available at `localhost:3000/docs/intro` and the blog at `localhost:3000/blog`.
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+### Development Notes
+
+- The landing page and docs share the same domain but are separate apps
+- Landing page is served by Rails from `../echodash-mvp`
+- Docs/blog are static files served from `../echodash-mvp/public/`
