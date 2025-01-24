@@ -59,7 +59,10 @@ const config = {
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: [
+            require.resolve('./src/css/custom.css'),
+            require.resolve('./src/css/tailwind.css'),
+          ],
         },
       }),
     ],
@@ -73,9 +76,9 @@ const config = {
       navbar: {
         title: '',
         logo: {
-          alt: 'EchoDash Logo',
+          alt: 'EchoDash',
           src: 'img/logo.svg',
-          href: 'pathname:///',
+          href: '/',
         },
         items: [
           {
@@ -144,6 +147,19 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+
+  plugins: [
+    async function tailwindPlugin(context, options) {
+      return {
+        name: 'docusaurus-tailwindcss',
+        configurePostCss(postcssOptions) {
+          postcssOptions.plugins.push(require('tailwindcss'));
+          postcssOptions.plugins.push(require('autoprefixer'));
+          return postcssOptions;
+        },
+      };
+    },
+  ],
 };
 
 export default config;
