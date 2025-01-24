@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+
+/* Custom Components */
+@layer components {
+  .tw-btn {
+    @apply tw-inline-flex tw-items-center tw-rounded-md tw-font-medium tw-transition-all tw-duration-150;
+  }
+
+  .tw-btn-primary {
+    @apply tw-bg-[#FAFF00] tw-text-[#0A0079] hover:tw-opacity-90;
+  }
+}
+
+@tailwind utilities;

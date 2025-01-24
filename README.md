@@ -11,7 +11,7 @@ $ npm install
 ### Local Development
 
 ```
-$ npm start
+$ npm run start -- --port 3001
 ```
 
 This command starts a local development server on port 3001 and opens up a browser window. Most changes are reflected live without having to restart the server.
@@ -20,7 +20,6 @@ This command starts a local development server on port 3001 and opens up a brows
 
 ```
 $ npm run build
-
 ```
 
 This command:

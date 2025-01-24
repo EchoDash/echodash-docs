@@ -4,7 +4,9 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/**
+ * Root Variables & Theming
+ */
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -18,8 +20,9 @@
   --ifm-link-color: rgb(23,23,23);
   --ifm-menu-color-active: rgb(23,23,23);
   --ifm-color-primary: rgb(23,23,23);
-  /* --ifm-navbar-padding-vertical: 2.5rem;
-  --ifm-navbar-padding-horizontal: 2.5rem; */
+  --ifm-navbar-height: 4.75rem;
+  --ifm-navbar-padding-horizontal: 2.5rem;
+  --ifm-font-family-base: Inter,ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -32,4 +35,102 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/**
+ * Global Overrides
+ */
+.navbar__logo {
+  height: 2.2rem;
+}
+
+/**
+ * Landing Page Styles
+ */
+
+html.plugin-pages body, html.plugin-pages nav {
+  background-color: rgb(10 0 121);
+  color: #fff;
+}
+
+/* Make logo white only on landing page */
+html.plugin-pages .navbar__logo img {
+    filter: brightness(0) invert(1);
+  }
+
+html.plugin-pages nav {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2.5rem;
+  position: relative;
+  box-shadow: none;
+}
+
+html.plugin-pages nav a.navbar__link {
+  color: #fff;
+}
+
+html.plugin-pages nav a.navbar__link:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+/* Landing page typography */
+
+html.plugin-pages h1, html.plugin-pages h2, html.plugin-pages h3, html.plugin-pages h4, html.plugin-pages h5, html.plugin-pages h6 {
+    font-family: Clash, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+    letter-spacing: .025em;
+    margin: 0;
+}
+
+/* Core landing page styles */
+.tw-bright {
+  color: #FAFF00;
+}
+
+html.plugin-pages .tw-animate-slideIn {
+  animation: slideIn 1.25s cubic-bezier(.4,0,.2,1);
+}
+
+html.plugin-pages .tw-list-none {
+    padding-left: 0;
+}
+
+html.plugin-pages .tw-border-\[3px\] {
+    border-style: solid;
+}
+
+html.plugin-pages hr {
+    margin: 0;
+}
+
+/**
+ * Responsive Utilities
+ */
+@media (min-width: 1024px) {
+    .tw-lg\:py-32 {
+      padding-top: 8rem;
+      padding-bottom: 8rem;
+    }
+
+    .tw-lg\:max-w-lg {
+        max-width: 32rem;
+    }
+  
+    .tw-lg\:text-\[108px\] {
+      font-size: 108px;
+    }
+}
+
+/* Typography */
+
+@font-face {
+    font-family: 'Clash';
+    src: url('ClashGrotesk-Regular.woff2') format('woff2'),
+            url('ClashGrotesk-Regular.woff') format('woff'),
+            url('ClashGrotesk-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
 }
