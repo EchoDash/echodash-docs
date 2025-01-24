@@ -134,3 +134,15 @@ html.plugin-pages hr {
     font-display: swap;
     font-style: normal;
 }
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(10%) translateY(20%) skewX(22deg) skewY(-13deg)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0) translateY(0) skewX(22deg) skewY(-13deg)
+    }
+}
