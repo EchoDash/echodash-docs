@@ -8,7 +8,9 @@ import CircleArrow from '@site/static/img/landing/circle-arrow-right.svg';
 
 // Import components and data
 import Feature from '../components/Feature';
+import FAQ from '../components/FAQ';
 import { features } from '../data/features';
+import MailjetForm from '../components/MailjetForm';
 
 export default function Home() {
   return (
@@ -56,8 +58,8 @@ export default function Home() {
       </div>
 
       {/* Email Signup Section */}
-      <div className="tw-py-8 tw-max-w-7xl tw-m-auto tw-mb-24 tw-flex tw-flex-col tw-items-center">
-        {/* We'll need to implement the mailjet_optin component */}
+      <div className="tw-max-w-7xl tw-m-auto tw-mb-24 tw-flex tw-flex-col tw-items-center">
+        <MailjetForm />
       </div>
 
       {/* Why EchoDash Section */}
@@ -120,6 +122,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* FAQ Section */}
+      <FAQ />
     </Layout>
   );
 } 

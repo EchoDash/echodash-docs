@@ -35,7 +35,7 @@ const Feature: React.FC<FeatureProps> = ({ title, bullets, image, imageAlt, reve
   );
 
   return (
-    <div className={`tw-py-16 tw-gap-16 tw-max-w-7xl tw-m-auto tw-flex ${reversed ? 'tw-flex-col-reverse' : 'tw-flex-col'} tw-items-center lg:tw-py-32 lg:tw-flex-row`}>
+    <div className={`tw-py-12 tw-gap-16 tw-max-w-7xl tw-m-auto tw-flex ${reversed ? 'tw-flex-col-reverse' : 'tw-flex-col'} tw-items-center lg:tw-py-24 lg:tw-flex-row`}>
       {reversed ? (
         <>
           <ContentSection />
