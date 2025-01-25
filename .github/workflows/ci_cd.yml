@@ -59,4 +59,4 @@ jobs:
             -H "Authorization: Bearer ${{ secrets.GH_PAT }}" \
             -H "X-GitHub-Api-Version: 2022-11-28" \
             https://api.github.com/repos/EchoDash/echodash-mvp/dispatches \
-            -d '{"event_type":"docs-updated"}' 
+            -d '{"event_type":"docs-updated","client_payload":{"sha":"${{ github.sha }}"}}' 
