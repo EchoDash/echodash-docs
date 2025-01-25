@@ -47,7 +47,7 @@ const MailjetForm: React.FC = () => {
           <button
             type="submit"
             disabled={status === 'loading'}
-            className="tw-text-lg tw-font-medium tw-py-2 tw-px-4 tw-rounded-xl tw-cursor-pointer tw-bg-[#FAFF00] tw-text-[#0A0079] hover:tw-bg-[#FAFF00] hover:tw-text-[#0A0079] focus:tw-bg-[#FAFF00] focus:tw-text-[#0A0079] disabled:tw-opacity-50"
+            className="tw-text-lg tw-border-none tw-font-medium tw-py-2 tw-px-4 tw-rounded-xl tw-cursor-pointer tw-bg-[#FAFF00] tw-text-[#0A0079] hover:tw-bg-[#FAFF00] hover:tw-text-[#0A0079] focus:tw-bg-[#FAFF00] focus:tw-text-[#0A0079] disabled:tw-opacity-50"
           >
             {status === 'loading' ? 'Subscribing...' : 'Subscribe'}
           </button>

@@ -19,6 +19,7 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
+  projectName: 'echodash-docs',
 
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
@@ -41,7 +42,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/EchoDash/echodash-docs/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -52,7 +53,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/EchoDash/echodash-docs/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -103,13 +104,25 @@ const config = {
       },
       footer: {
         style: 'dark',
+        logo: {
+          alt: 'EchoDash Logo',
+          src: 'img/landing/big-ed.svg',
+        },
         links: [
           {
-            title: 'Docs',
+            title: 'EchoDash',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentation',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Privacy Policy',
+                to: '/privacy',
+              },
+              {
+                label: 'Terms of Service',
+                to: '/terms',
               },
             ],
           },
@@ -144,7 +157,6 @@ const config = {
       },
       prism: {
         theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
       },
     }),
 
@@ -159,6 +171,14 @@ const config = {
         },
       };
     },
+    [
+      "posthog-docusaurus",
+      {
+        apiKey: "phc_b4NxwL0NHDDzeV2KkRbh4DFvLGYbrlahnqK7JNHCADL",
+        appUrl: "https://eu.i.posthog.com",
+        enableInDevelopment: false,
+      },
+    ],
   ],
 };
 
