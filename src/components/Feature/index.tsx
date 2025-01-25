@@ -1,5 +1,6 @@
 import React from 'react';
 import BulletArrow from '@site/static/img/landing/bullet-arrow.svg';
+import Heading from '@theme/Heading';
 
 interface FeatureProps {
   title: string;
@@ -12,7 +13,7 @@ interface FeatureProps {
 const Feature: React.FC<FeatureProps> = ({ title, bullets, image, imageAlt, reversed = false }) => {
   const ContentSection = () => (
     <div className="tw-w-full tw-flex tw-flex-col tw-gap-20 tw-items-start">
-      <h2 className="tw-text-3xl tw-leading-tight lg:tw-text-5xl">{title}</h2>
+      <Heading as="h2" className="tw-text-3xl tw-leading-tight lg:tw-text-5xl">{title}</Heading>
       <ul className="tw-list-none">
         {bullets.map((bullet, index) => (
           <li key={index} className={`tw-flex tw-gap-4 tw-items-center ${index > 0 ? 'tw-mt-2' : ''} tw-text-xl`}>
@@ -35,7 +36,7 @@ const Feature: React.FC<FeatureProps> = ({ title, bullets, image, imageAlt, reve
   );
 
   return (
-    <div className={`tw-py-12 tw-gap-16 tw-max-w-7xl tw-m-auto tw-flex ${reversed ? 'tw-flex-col-reverse' : 'tw-flex-col'} tw-items-center lg:tw-py-24 lg:tw-flex-row`}>
+    <div className={`tw-py-12 tw-gap-16 tw-max-w-7xl tw-mx-auto tw-flex ${reversed ? 'tw-flex-col-reverse' : 'tw-flex-col'} tw-items-center lg:tw-py-24 lg:tw-flex-row`}>
       {reversed ? (
         <>
           <ContentSection />
