@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Heading from '@theme/Heading';
 
 const MailjetForm: React.FC = () => {
   const [email, setEmail] = useState('');
@@ -31,7 +32,9 @@ const MailjetForm: React.FC = () => {
   return (
     <div className="tw-flex tw-flex-col tw-items-center tw-w-full tw-gap-10 tw-p-12 tw-border-[3px] tw-border-[#FAFF00] tw-rounded-[48px] lg:tw-flex-row">
       <div className="tw-max-w-full lg:tw-max-w-xl">
-        <h3 className="tw-text-3xl tw-leading-loose tw-pb-4 lg:tw-text-5xl">Join the waitlist</h3>
+        <Heading as="h3" className="tw-text-2xl tw-font-medium">
+          Get notified when we launch
+        </Heading>
         <p className="tw-text-xl">Join our waitlist and be the first to know when EchoDash is ready.</p>
       </div>
       <form onSubmit={handleSubmit} className="tw-flex tw-flex-col tw-gap-4">

@@ -89,11 +89,16 @@ html.plugin-pages nav {
   box-shadow: none;
 }
 
-html.plugin-pages nav a.navbar__link, html.plugin-pages article p a, html.plugin-pages .table-of-contents a {
+html.plugin-pages nav a.navbar__link, html.plugin-pages .table-of-contents a {
   color: #fff;
 }
 
-html.plugin-pages nav a.navbar__link:hover, html.plugin-pages article p a:hover, html.plugin-pages .table-of-contents a:hover {
+html.plugin-pages article p a, .tw-faq-block a {
+    color: rgb(250 255 0);
+    text-decoration: underline;
+}
+
+html.plugin-pages nav a.navbar__link:hover, html.plugin-pages article p a:hover, html.plugin-pages .table-of-contents a:hover, .tw-faq-block a:hover {
   text-decoration: underline;
   color: #fff;
 }
