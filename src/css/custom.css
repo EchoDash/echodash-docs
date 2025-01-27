@@ -185,7 +185,7 @@ footer.footer .footer__bottom img.footer__logo {
     font-family: 'Clash';
     src: url('/fonts/ClashGrotesk-Regular.woff2') format('woff2');
     font-weight: 500;
-    font-display: optional;
+    font-display: swap;
     font-style: normal;
 }
 
