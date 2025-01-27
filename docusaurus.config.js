@@ -46,14 +46,6 @@ const config = {
     },
   ],
 
-  scripts: [
-    {
-      src: 'https://eu.i.posthog.com/static/array.js',
-      async: true,
-      defer: true,
-    }
-  ],
-
   presets: [
     [
       'classic',
