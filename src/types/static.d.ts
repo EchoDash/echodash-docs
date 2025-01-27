@@ -1,6 +1,6 @@
 declare module '*.png' {
-  const png: string;
-  export default png;
+  const pngContent: string;
+  export default pngContent;
 }
 
 declare module '*.jpg' {
@@ -9,8 +9,9 @@ declare module '*.jpg' {
 }
 
 declare module '*.svg' {
-  const svg: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
-  export default svg;
+  import { FC, SVGProps } from 'react';
+  const SvgComponent: FC<SVGProps<SVGSVGElement>>;
+  export default SvgComponent;
 }
 
 declare module '@site/*' {

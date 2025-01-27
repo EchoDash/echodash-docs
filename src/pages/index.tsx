@@ -59,6 +59,7 @@ export default function Home() {
             className="tw-absolute tw-transform tw-skew-x-[22deg] tw--skew-y-[13deg] tw-max-w-none tw-rounded-xl tw-animate-slideIn tw-w-[600px] tw-h-[400px] tw-left-[100px] tw-top-[260px] lg:tw-top-48 lg:tw-left-48 lg:tw-w-[1440px] lg:tw-h-[900px]"
             style={{ boxShadow: '-10px -10px 200px rgba(0,0,0,0.5)' }}
             alt="EchoDash Screenshot"
+            loading="eager"
             />
         </div>
 

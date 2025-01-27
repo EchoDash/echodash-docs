@@ -32,6 +32,28 @@ const config = {
     locales: ['en'],
   },
 
+  // Add head tags
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preload',
+        href: '/fonts/ClashGrotesk-Regular.woff2',
+        as: 'font',
+        type: 'font/woff2',
+        crossorigin: 'anonymous',
+      },
+    },
+  ],
+
+  scripts: [
+    {
+      src: 'https://eu.i.posthog.com/static/array.js',
+      async: true,
+      defer: true,
+    }
+  ],
+
   presets: [
     [
       'classic',
