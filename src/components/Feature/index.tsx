@@ -31,6 +31,7 @@ const Feature: React.FC<FeatureProps> = ({ title, bullets, image, imageAlt, reve
         className="tw-max-w-none tw-w-[1440px] tw-ml-24 tw-mt-24 tw-rounded-xl"
         style={{ boxShadow: '-10px -10px 100px rgba(0,0,0,0.3)' }}
         alt={imageAlt}
+        loading="lazy"
       />
     </div>
   );
