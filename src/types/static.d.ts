@@ -8,6 +8,11 @@ declare module '*.jpg' {
   export default jpg;
 }
 
+declare module '*.woff2' {
+  const woff2: string;
+  export default woff2;
+}
+
 declare module '*.svg' {
   import { FC, SVGProps } from 'react';
   const SvgComponent: FC<SVGProps<SVGSVGElement>>;
