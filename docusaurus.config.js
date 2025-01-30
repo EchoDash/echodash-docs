@@ -128,15 +128,15 @@ const config = {
             items: [
               {
                 label: 'Documentation',
-                to: '/docs/intro',
+                to: '/docs/intro/',
               },
               {
                 label: 'Privacy Policy',
-                to: '/privacy',
+                to: '/privacy/',
               },
               {
                 label: 'Terms of Service',
-                to: '/terms',
+                to: '/terms/',
               },
             ],
           },

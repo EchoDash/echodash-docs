@@ -64,6 +64,12 @@
     --tw-shadow: 0 0 #0000;
 }
 
+/* Global styles */
+
+body, .main-wrapper {
+  overflow-x: hidden !important;
+}
+
 /**
  * Landing Page Styles
  */
