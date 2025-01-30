@@ -45,7 +45,7 @@ const config = {
       },
     },
   ],
-
+  trailingSlash: true,
   presets: [
     [
       'classic',

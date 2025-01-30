@@ -1,5 +1,7 @@
 module.exports = {
-  extends: ['plugin:@docusaurus/recommended'],
+  extends: [
+    'plugin:@docusaurus/recommended',
+  ],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
@@ -14,13 +16,16 @@ module.exports = {
   },
   settings: {
     typescript: true,
+    react: {
+      version: 'detect'
+    }
   },
   overrides: [
     {
       files: ['*.ts', '*.tsx', '*.d.ts'],
       parser: '@typescript-eslint/parser',
       extends: [
-        'plugin:@typescript-eslint/recommended',
+        'plugin:@docusaurus/recommended',
       ],
     },
   ],
