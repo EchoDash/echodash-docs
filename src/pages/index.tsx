@@ -21,10 +21,10 @@ export default function Home() {
       description="All you need to know about your business in one place"
     >
 
-      <main className="flex-grow tw-px-8 lg:tw-px-0">
+      <main className="flex-grow tw-px-6 lg:tw-px-0">
 
         {/* Hero Section */}
-        <div className="tw-py-8 tw-gap-6 tw-max-w-7xl tw-mx-auto tw-flex tw-flex-col tw-items-start tw-justify-center lg:tw-py-32">
+        <div className="tw-py-4 tw-gap-6 tw-max-w-7xl tw-mx-auto tw-flex tw-flex-col tw-items-start tw-justify-center lg:tw-py-24">
             <span className="tw-bright tw-text-lg">Free to get started. No credit card needed.</span>
             <Heading as="h1" className="tw-text-4xl tw-leading-tight tw-tracking-wider tw-mb-2 tw-max-w-full tw-break-words lg:tw-text-[108px] lg:tw-leading-none">
             Keep tabs on everything without opening one.

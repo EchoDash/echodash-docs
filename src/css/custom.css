@@ -20,8 +20,9 @@
   --ifm-link-color: rgb(23,23,23);
   --ifm-menu-color-active: rgb(23,23,23);
   --ifm-color-primary: rgb(23,23,23);
-  --ifm-navbar-height: 4.75rem;
-  --ifm-navbar-padding-horizontal: 2.5rem;
+  --ifm-navbar-height: 5.5rem;
+  --ifm-navbar-padding-horizontal: 1.5rem;
+  --ifm-navbar-padding-vertical: 1.5rem;
   --ifm-font-family-base: Inter,ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
   --ifm-footer-logo-max-width: 100%;
   --ifm-footer-link-hover-color: rgb(229 229 229);
@@ -85,7 +86,6 @@ html.plugin-pages nav {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
-  padding: 2.5rem;
   position: relative;
   box-shadow: none;
 }
