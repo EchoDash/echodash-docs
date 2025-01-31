@@ -2,7 +2,9 @@ jack:
   name: Jack Arturo
   title: Co-founder
   url: https://github.com/jack-arturo
+  email: jack@echodash.com
   image_url: https://avatars.githubusercontent.com/u/13076544?v=4
+  description: Web developer since age 12, founder of Very Good Plugins, and creator of WP Fusion. Now building EchoDash to revolutionize how businesses monitor their SaaS metrics with AI. When not coding, you'll find him pushing the boundaries of marketing automation and getting excited about the future of AI.
   page: true
   socials:
     x: verygoodplugins
@@ -12,6 +14,9 @@ alex:
   name: Alex Beck
   title: Co-founder
   url: https://clarafinds.com
+  email: alex@echodash.com
+  image_url: /img/alex.jpeg
+  description: Creator of Clara, a data visualization platform helping teams make sense of complex datasets. Now head of marketing at EchoDash, bringing the power of AI to business analytics. Passionate about making complex data accessible and actionable.
   page: true
   socials:
     x: echodashh

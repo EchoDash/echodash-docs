@@ -4,12 +4,11 @@ This is the documentation site for [echodash.com](https://echodash.com), built u
 
 ## Project Architecture
 
-- The landing page and docs share the same domain but are separate apps
-- Landing page is served by Rails from `../echodash-mvp`
-- Docs/blog are static files served from `../echodash-mvp/public/`
+- The EchoDash app runs on Rails and is powered by Fly.io
+- Static pages, the home page, docs, and blog are powered by Docusaurus and served from Cloudflare Pages
+- Cloudflare workers route requests to the correct app based on the request path
 - Built with Docusaurus v3.7.0
 - Uses Tailwind CSS for styling
-- Deployed via Fly.io
 - PostHog for analytics
 
 ## Local Development
@@ -39,16 +38,21 @@ The site will be available at `http://localhost:3001`. Most changes are reflecte
 npm run build
 ```
 
-This command:
-1. Generates static content into the `build` directory
-2. Automatically copies the built files to `../echodash-mvp/public/`
+This command generates static content into the `build` directory. When developing locally, the built files are automatically copied to `../echodash-mvp/public/`.
 
 ## Continuous Integration/Deployment
 
-We use GitHub Actions for CI/CD. On every push to main:
-1. Code is linted
-2. Site is built
-3. If successful, automatically deployed to Fly.io
+We use Cloudflare Pages for hosting and CI/CD, integrated directly with Git:
+1. Creating a PR generates a preview deployment URL
+2. Merging to main automatically deploys to production
+3. Built files are served directly from Cloudflare's global edge network
+
+Pull requests trigger automated checks using `@docusaurus/eslint-plugin`:
+- TypeScript type checking
+- React Hooks usage validation
+- Docusaurus-specific rules (valid links, asset references, etc.)
+- Code style and formatting
+- Dead code elimination
 
 ## Content Management
 
@@ -70,7 +74,9 @@ The sidebar is automatically generated based on the file structure and `sidebar_
 
 To create a new blog post, you have two options:
 
-1. **Simple Post**: Add a markdown file directly in `blog/` with format `YYYY-MM-DD-title.md`:
+> 👉 **Non-technical writers**: See [CONTRIBUTING_BLOG.md](CONTRIBUTING_BLOG.md) for a guide on creating posts directly through GitHub's interface.
+
+1. **Simple Post**: Add a markdown file directly in `blog/` with format `YYYY-MM-DD-title.md` (best for text-only posts):
 ```markdown
 ---
 slug: welcome-docusaurus
@@ -82,15 +88,16 @@ tags: [hello]
 Your content here...
 ```
 
-2. **Post with Assets**: Create a directory in `blog/` with format `YYYY-MM-DD-title` containing an `index.md` and related assets:
+2. **Recommended: Post with Assets**: Create a directory in `blog/` with format `YYYY-MM-DD-title` containing an `index.md` and related assets:
 ```
 blog/
   └── 2024-01-23-welcome/
-      ├── index.md
-      └── cover.jpg
+      ├── index.md          # Your post content
+      ├── cover.jpg         # Referenced as ./cover.jpg
+      └── screenshot.png    # Referenced as ./screenshot.png
 ```
 
-Both approaches support the same frontmatter configuration. Authors are defined in `blog/authors.yml` and tags in `blog/tags.yml`.
+Both approaches support the same frontmatter configuration. Authors are defined in `blog/authors.yml` and tags in `blog/tags.yml`. The directory approach is preferred as it keeps your post's assets organized together.
 
 ### Static Pages
 
