@@ -13,6 +13,7 @@ const config = {
   title: 'EchoDash',
   tagline: 'A real time events platform for everything you do online',
   favicon: 'img/favicon.ico',
+  trailingSlash: false,
 
   // Set the production url of your site here
   url: 'https://echodash.com',
@@ -117,7 +118,6 @@ const config = {
           },
         ],
       },
-      trailingSlash: false,
       colorMode: {
         defaultMode: 'light',
         disableSwitch: true,
