@@ -103,6 +103,7 @@ const config = {
             label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/contact', label: 'Contact', position: 'left'},
           {
             href: 'pathname:///users/sign_in',
             label: 'Log In',
@@ -144,6 +145,10 @@ const config = {
               {
                 label: 'Terms of Service',
                 to: '/terms',
+              },
+              {
+                label: 'Contact Us',
+                to: '/contact',
               },
             ],
           },
