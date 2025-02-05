@@ -110,6 +110,21 @@ html.plugin-pages nav a.navbar__link:hover, html.plugin-pages article p a:hover,
   color: #fff;
 }
 
+nav a svg.iconExternalLink_nPIU {
+  display: none;
+}
+
+nav a.request-access-link {
+  border: 1px solid var(--ifm-navbar-link-color);
+  padding: 6px 18px;
+  border-radius: 8px;
+  margin-left: 10px; 
+}
+
+html.plugin-pages nav a.request-access-link {
+  border-color: white;
+}
+
 /* Landing page typography */
 
 html.plugin-pages h1, html.plugin-pages h2, html.plugin-pages h3, html.plugin-pages h4, html.plugin-pages h5, html.plugin-pages h6 {

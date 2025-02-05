@@ -36,8 +36,8 @@ export default function Home() {
             
             <div className="tw-flex tw-flex-col tw-items-center md:tw-flex-row">
             <Link 
-                to="/users/sign_in"
-                target="_blank"
+                to="pathname:///users/sign_up"
+                target="_self"
                 className="tw-btn tw-btn-primary tw-py-3 tw-px-6 tw-text-lg tw-block tw-text-center tw-bg-[#FAFF00] tw-text-[#0A0079] hover:tw-bg-[#FAFF00] hover:tw-text-[#0A0079] focus:tw-bg-[#FAFF00] focus:tw-text-[#0A0079]"
             >
                 Request Early Access
@@ -103,8 +103,8 @@ export default function Home() {
                 </Heading>
                 <span className="tw-text-xl">Keep tabs on everything.</span>
                 <Link 
-                to="/users/sign_in"
-                target="_blank"
+                to="pathname:///users/sign_up"
+                target="_self"
                 className="tw-btn tw-btn-primary tw-p-3 tw-text-lg tw-block tw-text-center tw-bg-[#FAFF00] tw-text-[#0A0079] hover:tw-bg-[#FAFF00] hover:tw-text-[#0A0079] focus:tw-bg-[#FAFF00] focus:tw-text-[#0A0079]"
                 >
                 Get Started
@@ -140,8 +140,8 @@ export default function Home() {
           <Heading as="h2" className="tw-text-6xl tw-leading-none tw-text-center lg:tw-text-[108px]">Get looped in.</Heading>
           <p className="tw-text-xl tw-text-center">If you start now you can be saving time in no time.</p>
             <Link 
-            to="/users/sign_in"
-            target="_blank"
+            to="pathname:///users/sign_up"
+            target="_self"
             className="tw-btn tw-btn-primary tw-py-3 tw-px-6 tw-text-lg tw-block tw-text-center tw-bg-[#FAFF00] tw-text-[#0A0079] hover:tw-bg-[#FAFF00] hover:tw-text-[#0A0079] focus:tw-bg-[#FAFF00] focus:tw-text-[#0A0079]"
             >
             Request Early Access

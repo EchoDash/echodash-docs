@@ -21,7 +21,7 @@ const config = {
   baseUrl: '/',
   projectName: 'echodash-docs',
 
-  onBrokenLinks: 'ignore',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -45,7 +45,6 @@ const config = {
       },
     },
   ],
-  trailingSlash: true,
   presets: [
     [
       'classic',
@@ -104,13 +103,21 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: '/users/sign_in',
+            href: 'pathname:///users/sign_in',
             label: 'Log In',
             position: 'right',
-            target: '_blank',
+            target: null,
+          },
+          {
+            href: 'pathname:///users/sign_up',
+            label: 'Request Access',
+            position: 'right',
+            className: 'tw-btn request-access-link',
+            target: null,
           },
         ],
       },
+      trailingSlash: false,
       colorMode: {
         defaultMode: 'light',
         disableSwitch: true,
@@ -128,15 +135,15 @@ const config = {
             items: [
               {
                 label: 'Documentation',
-                to: '/docs/intro/',
+                to: '/docs/intro',
               },
               {
                 label: 'Privacy Policy',
-                to: '/privacy/',
+                to: '/privacy',
               },
               {
                 label: 'Terms of Service',
-                to: '/terms/',
+                to: '/terms',
               },
             ],
           },
