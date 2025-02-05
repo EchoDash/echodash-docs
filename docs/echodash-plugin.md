@@ -91,6 +91,6 @@ Yes - all data is transmitted securely via HTTPS to EchoDash's servers.
 
 ## Getting Help
 
-- [Documentation](https://echodash.com/docs/intro/)
-- [Support Portal](https://echodash.com/support/)
+- [Documentation](https://echodash.com/docs/intro)
+- [Support Portal](https://echodash.com/contact)
 - [GitHub Issues](https://github.com/EchoDash/echodash/issues)

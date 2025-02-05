@@ -7,7 +7,7 @@ Terms Of Service
 
 Last updated July 25, 2024
 
-Welcome to EchoDash Ltd. Please read our Terms Of Service carefully so you can familiarise yourself with the rules and restrictions that cover and govern your use of our website (www.EchoDash.com) and any other associated websites, web apps, products, services, and applications (the “Service”, “Platform”). If you have any questions, comments, queries, or concerns regarding our Terms please email legal@echodash.com
+Welcome to EchoDash Ltd. Please read our Terms Of Service carefully so you can familiarise yourself with the rules and restrictions that cover and govern your use of our website (EchoDash.com) and any other associated websites, web apps, products, services, and applications (the “Service”, “Platform”). If you have any questions, comments, queries, or concerns regarding our Terms please email legal@echodash.com
 
 **Definitions**
 ---------------
