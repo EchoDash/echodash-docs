@@ -10,7 +10,7 @@ EchoDash accepts any JSON or form-encoded data via POST request out of the box. 
 
 ```bash
 # Simplest possible usage - just POST any JSON data
-curl -X POST https://your-echodash-instance/webhooks \
+curl -X POST https://echodash.com/endpoints/XYZ/receive \
   -H "Content-Type: application/json" \
   -d '{
     "any": "data",
