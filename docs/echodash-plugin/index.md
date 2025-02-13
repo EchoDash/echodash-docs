@@ -10,7 +10,7 @@ Track user events and interactions across your WordPress site with EchoDash anal
 
 ## Initial Setup
 
-1. Install and activate the EchoDash plugin from the WordPress plugin directory
+1. Install and activate the EchoDash plugin from the [WordPress plugin directory](https://wordpress.org/plugins/echodash/)
 2. Go to Settings → EchoDash in your WordPress admin
 3. Click "Connect to EchoDash" 
 4. Create a free EchoDash account or log in
@@ -37,6 +37,10 @@ Common merge field sources:
 - `{post:id}` - Post ID
 - `{order:total}` - Order total (WooCommerce)
 - `{subscription:status}` - Subscription status
+
+You can click the dropdown in the editor to see a list of available merge fields for the trigger.
+
+![Merge Fields Dropdown](learndash-merge-vars.jpg)
 
 Example event data:
 

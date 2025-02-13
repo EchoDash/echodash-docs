@@ -30,15 +30,15 @@ const MailjetForm: React.FC = () => {
   };
 
   return (
-    <div className="tw-flex tw-flex-col tw-items-center tw-w-full tw-p-12 tw-border-[3px] tw-border-[#FAFF00] tw-rounded-[48px] lg:tw-flex-row">
-      <div className="tw-max-w-full lg:tw-max-w-xl">
+    <div className="tw-flex tw-flex-col tw-items-center tw-w-full tw-p-12 tw-border-[3px] tw-border-[#FAFF00] tw-rounded-[48px] lg:tw-flex-row lg:tw-justify-between">
+      <div className="tw-max-w-full lg:tw-max-w-xl tw-px-6">
         <Heading as="h3" className="tw-text-2xl">
           Get notified when we launch
         </Heading>
-        <p className="tw-text-xl">Join our waitlist and be the first to know when EchoDash is ready.</p>
+        <p className="tw-text-l">Join our waitlist and be the first to know when EchoDash is ready.</p>
       </div>
-      <form onSubmit={handleSubmit} className="tw-flex tw-flex-col tw-gap-4">
-        <div className="tw-flex tw-flex-col tw-items-center tw-gap-4 lg:tw-flex-row">
+      <form onSubmit={handleSubmit} className="tw-flex tw-flex-col tw-gap-4 lg:tw-flex-1 lg:tw-items-end">
+        <div className="tw-flex tw-flex-col tw-items-center tw-gap-2 lg:tw-flex-row">
           <input
             type="email"
             value={email}

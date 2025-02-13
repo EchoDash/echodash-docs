@@ -202,7 +202,7 @@ const config = {
       {
         apiKey: "phc_b4NxwL0NHDDzeV2KkRbh4DFvLGYbrlahnqK7JNHCADL",
         appUrl: "https://eu.i.posthog.com",
-        enableInDevelopment: false,
+        enableInDevelopment: true,
       },
     ],
   ],

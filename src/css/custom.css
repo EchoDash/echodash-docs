@@ -17,7 +17,7 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-link-color: rgb(23,23,23);
+  --ifm-link-color: #0a0079;
   --ifm-menu-color-active: rgb(23,23,23);
   --ifm-color-primary: rgb(23,23,23);
   --ifm-navbar-height: 5.5rem;
@@ -114,15 +114,21 @@ nav a svg.iconExternalLink_nPIU {
   display: none;
 }
 
-nav a.request-access-link {
+nav .navbar__items--right a.request-access-link {
   border: 1px solid var(--ifm-navbar-link-color);
   padding: 6px 18px;
   border-radius: 8px;
   margin-left: 10px; 
 }
 
-html.plugin-pages nav a.request-access-link {
+html.plugin-pages nav .navbar__items--right a.request-access-link {
   border-color: white;
+}
+
+/* Sidebar */
+
+.theme-doc-sidebar-container .sidebarViewport_aRkj {
+  max-height: 100%;
 }
 
 /* Landing page typography */
