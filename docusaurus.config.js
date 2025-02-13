@@ -89,6 +89,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/og-image.jpg',
       navbar: {
+        hideOnScroll: true,
         title: '',
         logo: {
           alt: 'EchoDash',
