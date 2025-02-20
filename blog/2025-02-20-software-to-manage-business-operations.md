@@ -15,6 +15,7 @@ Jack very quickly realised this wasn’t a problem he alone was facing, this is 
 
 ### What is EchoDash?
 
+
 EchoDash, is a tool to manage your business operations and [software stack ](htarget.com/searchapparchitecture/definition/software-stack)from one place.
 
 EchoDash was born out of a problem our founder Jack had. He spent hours each week just getting the data to then manage his businesses operations. Logging in to check multiple services to understand the key aspects of his business that day or week is frustrating and time consuming. He was frustrated with the sub standard solution of “just keeping a lot tabs open” to manage his software stack. 
@@ -30,6 +31,7 @@ EchoDash has some fantastically cool tech under the hood, using AI to ingest Web
 
 ### What is a Webhook? 
 
+
 According to [RedHat.com](redhat.com) a Webhook is “A Webhook is a lightweight, event-driven communication that automatically sends data between applications via HTTP. Triggered by specific events, Webhooks automate communication between application programming interfaces (APIs) and can be used to activate workflows, such as in GitOps environments.” 
 
 If you’re not a developer, simply put it is a way for any website or app to talk to another. Think of it as DMs or instant messages between software services. Yes kind like robots texting each other. It’s done in an automated way, and Webhooks can include a lot of data. When you connect a Webhook you’re sending any data that service allows to anywhere else to interact with it, or even create alerts or automations.
@@ -39,12 +41,14 @@ Webhooks are often triggered by an ‘event’, in software parlance. Which is b
 
 ### What did people do before EchoDash? 
 
+
 The thing we heard most talking to developers and business owners, is that many use a dedicated slack channel. Basically they would feed Webhook data to a slack channel to get events piped into slack that they monitor there
 
 It’s a very simple solution and for a lot of small companies it can be enough. It is also free and lives in the place your team lives, from that perspective it’s a handy place to begin. Slack does, however, faces many limitations, if you’re two or three people it’s a great place to start, but when your business scales, it won’t scale with you. 
 
 
 ### How to get Webhook URL for Slack Channel?
+
 
 To get a webhook URL for a Slack channel, you can do the following:
 
@@ -77,6 +81,7 @@ It should look like:
 
 ### Can you email to slack channel?
 
+
 Slack has beaten us to this punch, but we will be delivering it. The answer is yes, you can, but this is not a free feature from Slack. Slack notes you’d need a standard or plus plan to email in. 
 
 If that’s you, you can forward emails to your dedicated alerts channel following these steps:
@@ -89,6 +94,7 @@ EchoDash is working on a similar feature, but our aim is that you can edit the t
 
 
 ### How does Slack compare to EchoDash? 
+
 
 We love Slack, we use it every day and it’s best in class in what it does. We don’t see ourselves as a competitor to Slack, but as a useful addition. Slack isn’t designed for what EchoDash excels at, pulling events, activity, notification and alerts from your entire software stack and serving it to you in ways that make it easy to understand, act on and share.
 
@@ -109,6 +115,7 @@ Webhook data is often unstructured and messy, or can be overloaded with lots of 
 
 ### Who is EchoDash for? 
 
+
 Initially we had thought: developers, but we learnt quickly, that lots of different kinds of non technical business people, sales people, marketers and others had similar problems
 
 Some examples of who we’re building for:
@@ -126,6 +133,3 @@ If you use WordPress (WP) to run your business we’ve setup a very simple integ
 If you don’t use WordPress no problem. You can, with no coding knowledge, send Webhook data from the services you use to EchoDash. We have a simple how to guide [here]([url](https://echodash.com/docs/sending-data)). 
 
 Anyone running a business using lots of software services and SaaS tools, can give EchoDash a try. Yes it’s pretty broad, but we’re confident if you use more than 4 tools, we’ll make your life easier. We know that’s the case because we’re solving this problem for ourselves and our friends.
-
-
-
