@@ -17,6 +17,8 @@ Today's EchoDash app update includes several new features and improvements:
 
 * Improved mobile styling.
 
+<!-- truncate -->
+
 ### Fixes
 
 * Fixed empty fields showing in the event details if a field found in the event template was not present in the event data.

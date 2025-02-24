@@ -7,3 +7,33 @@ product-updates:
   label: Product Updates
   permalink: /product-updates
   description: Updates to the EchoDash platform
+
+features:
+  label: Features
+  permalink: /features
+  description: EchoDash feature highlights
+
+echodash:
+  label: EchoDash
+  permalink: /echodash
+  description: General EchoDash content
+
+slack:
+  label: Slack
+  permalink: /slack
+  description: Slack integration related content
+
+software-stack:
+  label: Software Stack
+  permalink: /software-stack
+  description: Technical stack discussions
+
+wp-agency:
+  label: WordPress Agency
+  permalink: /wp-agency
+  description: WordPress agency related content
+
+wp:
+  label: WordPress
+  permalink: /wp
+  description: WordPress platform content
