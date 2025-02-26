@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Introduction to EchoDash
+title: Introduction
 description: Learn about EchoDash - your central notification center for all your online activities
 ---
 
