@@ -92,5 +92,28 @@ Another fantastic retail store performance dashboard is Google Sheets or Excel. 
 
 [PostHog] (https://www.posthog.com/) is an open-source product and web analytics tool designed for developers to see how their app is performing. We can recommend PostHog from experience. It does require some technical skills and thus is really a tool designed for a developer to at least initially setup. Once the setup is complete, anyone on the team can setup dashboards to understand lots of different kinds of data. One of the coolest features is making funnels. An example is tracking users who visit a page, return and then signup. PostHog is pretty customisable if you’re a developer so you can create specific funnels that are relevant to your app. PostHog also has a generous free plan. It’s pricing works based on data volume (number of events), so as you scale it may eventually begin to cost. That does make it an excellent option for smaller companies and single developers.
 
+![pothog-marketing-dashboard](https://github.com/user-attachments/assets/d17e76a4-be89-4ddd-b59c-3b47efcbb4eb)
+-PostHog software development metrics dashboard example
+
+[Datadog] (https://www.datadog.com/) is similar to PostHog but is a bit older and more suited to larger companies. It shines as a monitoring solution for medium sized apps. They are well known for having very flexible systems to track almost anything a developer would want to track. It’s also reputed to have fast data retrieval and visualisations. Users love their UI/IX and rich feature set and large set of integrations, libraries and frameworks .Given it’s a listed company it makes a great choice for larger companies that have strict procurement regulations.) One of the key concerns is its pricing can very quickly become very expensive when you have significant data, and their pricing model is reportedly not always easy to understand.
+
+![datadog-software-development-dashboard](https://github.com/user-attachments/assets/bdf29d36-e923-4c36-bf1f-a9dda590bd76)
+-Datadog software development metrics dashboard example
+
+[EchoDash] (https://www.echodash.com/) was designed initially with software developers in mind. We’re not exclusively designed for developers them but our approach is pretty different from every one on this list. Rather than a dashboard, we’re building a feed (yes like a Instagram or LinkedIn feed.) The feed is real time of every data source you want to track. Crucially where we’re different is we don’t rely on integrations but Webhooks. So you can connect any data source with no coding skills. If you need to see your data in timely manner then we’d love to have you on board. Whilst we’re in Beta we’re also completely free.
+
+![Echodash-software -development-metrics-dashboard](https://github.com/user-attachments/assets/2675a006-c699-4ec7-ab06-f3712549cd04)
+-EchoDash software development metrics dashboard example
+
+
+### What is an Example of a Data Source a Company Might Use With a Dashboard?
+
+There are plenty of data sources you can use for your dashboard, again the real question is what is the key data to you? Let’s say you mainly do inventory on a spreadsheet and use Stripe , Square and PayPal. These could be the key data sources you’d want to see in your dashboard. Or let’s say you sell mostly on Etsy but your sales figures are not very clear, and you really want to know more about which marketing and ads are working. You could pull data from your Google ads, IG and see which are converting to sales and at what cost.Another example could be looking at inventory data to understand which stock sells well and how each piece of stock’s margins compare. 
+
+The data source you use in your dashboard, really is the key thing you need to know to make better decisions. So you should first ask yourself, what are my key challenges? What are the things I need to understand better? That should lead you to the sources you should put into your dashboard.
+
+
+
+
 
 
