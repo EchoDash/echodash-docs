@@ -26,7 +26,7 @@ This isn’t the limit to what can be tracked either, each business can track wh
 ### What Currently Exists? What are Digital Dashboard Examples?
 
 There are a lot of dashboards out there, pretty much every payments company has their own, as do many marketing companies. For example there’s the Square Dashboard, Stripe, Shopify, WooCommerce all have their own dashboards too that track sales and revenue quite well. Same for Analytics firms like Matomo or Google Analytics, which allows you to see where traffic comes from. If you’re looking for something that can view multiple sources in one place (ie you wanna see sales data, web traffic, inventory and anything else.) There’s quite a few different providers you can try:
-a
+
 Klipfolio (https://klipfolio.com) has two main products one for smaller business called Klips the other, PowerMetrics is for larger companies. Both offer a suite of integrations to a suite of tools across 17 categories of software. From Ads, email to HR and Web Analytics. Their price starts from $90. They boast an easy setup, and you don’t need to be technical to get it going. Although one noted critique is it can be hard to make custom dashboards and if they don’t have the API for the tool your using you can’t view it in the dashboard.
 
-
+Geckoboard (https://geckoboard.com) is a more flexible digital dashboard than Klipfolio when it comes to setting up custom dashboards, with a simple drag and drop. They also rely on integrations, with 90 data sources, of writing. Geckoboard is also well rated by those who need to share with a larger team, and for non tech savvy teams. Some of the frequent complaints users make are that the Shopify and Instagram integrations aren’t very detailed, so you don’t get top performing instagram posts or in depth sales data to visualisation in Geckoboard’s digital dashboard. They pricing starts at $44 for 1 dashboard and 3 users.
