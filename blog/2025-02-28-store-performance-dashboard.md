@@ -63,23 +63,34 @@ Store performance dashboards aren’t usually designed just for one person, alth
 -Lemon Squeezy SaaS dashboard example
 
 
+### What are Some Retail Store Performance Dashboard Examples?
+
+[Katana] (https://katanamrp.com/)  is one of the best rated retail store performance dashboards, their main strength is inventory management, order management and real-time data directly to your retail store performance dashboard. Katana also has integrations with QuickBooks, Shopify and many others. Katana starts at $179, so is on the pricier side.
+
+![retail-store-performane-dashboard](https://github.com/user-attachments/assets/9880c100-b2b4-4313-b05e-ba4a94278730)
+-Katana retail store performance dashboard example
+
+Another fantastic retail store performance dashboard is Google Sheets or Excel. That’s right, they’re hugely customisable and powerful and you can pair these tools you know well with [Coefficient] (https://coefficient.io/). Which allows you to pull data from Stripe, Shopfiy, your CRM and other software into Sheets. So if you’re more comfortable in spreadsheet land, then it’s possible to bring your data there. Coefficient works with any spreadsheet skills so you don’t need to be super tech savvy to set it up. One of the coolest features is the ability to trigger alerts to slack or email if data changes in any cell on your google sheet. Coefficients pricing starts at $49 a month.
 
 
+### What are Some Project Management Dashboards?
+
+[ClickUp] (https://clickup.com/) is pretty much a household name at this point. It’s one of the main tools project teams use given its flexibility, ease of use and feature rich product. ClickUp allows you to make multiple folders, workspaces, lists, Kanbans or workflows connected to projects. So it’s a very configurable project management dashboard. It works well for big and small teams alike. If you need a big picture view of your projects ClickUp could be the tool you need. Users do report that their pricing can stack up quickly as it’s modular. Pricing starts at $10 per user per month.
+
+![clickup-project-management-dashboard](https://github.com/user-attachments/assets/9b7eadbe-1492-4cdb-b881-fada79aecd50)
+-ClickUp project management dashboard example
+
+[ProjectManager] (https://www.projectmanager.com/) is a great project management dashboard if you work with external partners and want to easily send them invites to specific projects. It’s well regarded for its ease of use and great customer service. Unlike ClickUp it’s not as well suited for larger teams as some of their processes for team management can be quite manual. ProjectManager’s dashboard starts at $13 per user per month.
+
+![ProjectManager-project-management-dashboardjpg](https://github.com/user-attachments/assets/8b6d9b60-e37a-456c-8e39-600f8f44d40b)
+-ProjectManager project management dashboard example
 
 
+### What are Examples of Software Development Metrics Dashboard 
 
+ software development dashboard is similar to store performance dashboard but is built for app developers instead of e-commerce and store managers. The main aim of this kind of dashboard is to track the key metrics for a software project, web or mobile app. Whilst the theory is the same the kind of data tracked is different. A software development metrics dashboard has many of the features of a SaaS dashboard, but crucially also looks at important app metrics like uptime, bugs and other crucial things developers need to know to keep their customers happy. It also doesn’t need to be a software project that is earning any revenue yet.
 
-
-
-
-
-
-
-
-
-
-
-
+[PostHog] (https://www.posthog.com/) is an open-source product and web analytics tool designed for developers to see how their app is performing. We can recommend PostHog from experience. It does require some technical skills and thus is really a tool designed for a developer to at least initially setup. Once the setup is complete, anyone on the team can setup dashboards to understand lots of different kinds of data. One of the coolest features is making funnels. An example is tracking users who visit a page, return and then signup. PostHog is pretty customisable if you’re a developer so you can create specific funnels that are relevant to your app. PostHog also has a generous free plan. It’s pricing works based on data volume (number of events), so as you scale it may eventually begin to cost. That does make it an excellent option for smaller companies and single developers.
 
 
 
