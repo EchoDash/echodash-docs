@@ -113,7 +113,6 @@ There are plenty of data sources you can use for your dashboard, again the real 
 The data source you use in your dashboard, really is the key thing you need to know to make better decisions. So you should first ask yourself, what are my key challenges? What are the things I need to understand better? That should lead you to the sources you should put into your dashboard.
 
 
+### What is a Visualization Dashboard?
 
-
-
-
+Most if not all of the dashboards discussed above have a visualization component. Basically all that means is you can see different graphics, graphs and images of key metrics. Typically things like user growth, clicks, revenue or sales volumes or raw revenue data. Pretty much everything you’re tracking can be viewed as raw sheet data or as a graph. Visualizations make it faster and easier to spot trends, like is your ad campaign’s reach growing or slowing? Or did that IG post reach more people than your last?
