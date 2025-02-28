@@ -42,6 +42,7 @@ There are a lot of dashboards out there, pretty much every payments company has 
 [Databox] (https://databox.com) has a free plan with 3 data sources, 3 boards and 4 users and its starter plan starts at $72 per month. So it’s a great option for small businesses who are just starting off building a store performance dashboard. Databox is known for its user friendliness, easy setup and very customisable dashboards. Some of the common complaints are connected to getting real time data, according to some of its users doesn’t always update in real time. Another frequent complaint is the lack of a middle tier pricing plan for those businesses that need more than 3 sources but not 10.
 
 ![databox-digital-dashboard](https://github.com/user-attachments/assets/d04db6e8-067f-4325-85df-c3a87790815f)
+
 -Databox digital dashboard example
 
 
