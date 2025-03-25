@@ -48,7 +48,7 @@ It's a very simple solution and for a lot of small companies it can be enough. I
 
 ### How to get Webhook URL for Slack Channel?
 
-To get a webhook URL for a Slack channel, you can do the following:
+To get a Slack webhook URL for a Slack channel, you can do the following:
 
 1. Create a Slack App
 
