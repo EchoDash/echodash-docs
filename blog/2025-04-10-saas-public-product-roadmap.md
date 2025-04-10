@@ -40,7 +40,6 @@ product strategy—which anyone can freely view.
 
 &nbsp;&nbsp;&nbsp;Github's Public Roadmap
 
-</p>
 
 
 
@@ -90,7 +89,6 @@ When creating your own public roadmap, consider these lessons from GitHub:
 
 &nbsp;&nbsp;&nbsp;Bracket's Public Roadmap
 
-</p>
 
 Bracket is a modern text editor app for front end developers and designers to work in browser. [Bracket's](https://trello.com/b/LCDud1Nd/brackets) roadmap uses a simple Trello board broken down 
 into To be reviewed, community backlog, product backlog, nominations and then finally shipped products.
@@ -124,7 +122,6 @@ When implementing a Trello for your roadmap strategy:
 
 &nbsp;&nbsp;&nbsp;Buffer's Public Roadmap
 
-</p>
 
 Buffer were early in social media management game, and grew to be very successful embracing community-driven development through its public roadmap. 
 [Buffer](https://suggestions.buffer.com/roadmap)’s transparent roadmap has since become a hallmark of their company philosophy and influenced 1000s of companies on how to be radically transparent.
@@ -172,7 +169,6 @@ When designing your own public roadmap, consider these things from Buffer’s ap
 
 &nbsp;&nbsp;&nbsp;WP Fusion's Public Roadmap
 
-</p>
 
 [WP Fusion](https://wpfusion.com/roadmap/) (EchoDash’s Founder Jack is also the founder behind WP Fusion ) is a household name in the WP community, 
 designed to integrate WordPress sites with CRMs and email marketing tools. Whilst not strictly as SaaS tool, they’ve done a great job.
@@ -208,8 +204,6 @@ without needing to reach out, masterclass in communications that build user trus
 <img width="1091" alt="Notions-whats-new" src="https://github.com/user-attachments/assets/208f7500-a113-4e17-bff2-e1ce4ccba006" />
 
 &nbsp;&nbsp;&nbsp;Notions's Not Roadmap
-
-</p>
 
 I’m putting Notion in here for a couple reasons, one I love the product, it’s replaced 10 other tools for me and wanted to highlight how to create value without having a public roadmap. 
 As [Notion](https://www.notion.com/releases) maintains only a list of new features and a list of older shipped features.
@@ -252,7 +246,6 @@ Ultimately, Notion demonstrates that successful public roadmaps can come in diff
 
 &nbsp;&nbsp;&nbsp;Softr's Public Roadmap
 
-</p>
 
 Softr is another smaller or lesser known company on the list (albeit they’re killing it , they just aren’t as big as some of the others.) 
 [Softr](https://www.softr.io/roadmap)’s SaaS product roadmap is fairly similar to WP Fusion but they’re another one that’s using their own tool (Dog fooding ) to make a public roadmap.
