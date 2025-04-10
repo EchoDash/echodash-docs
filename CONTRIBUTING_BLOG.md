@@ -90,7 +90,7 @@ To upload files through GitHub:
 ## Publishing Workflow
 
 1. **Create a Branch**
-   - Above your new file, find the "Create a new branch" option
+   - Above your new file, find the "Create a new branch" option "Commit"
    - Name it something like `blog/post-title`
    - Select "Propose new file"
 
