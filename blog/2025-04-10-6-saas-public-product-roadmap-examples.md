@@ -30,7 +30,7 @@ product strategy—which anyone can freely view.
 
 - **Reduces support inquiries** - Acts as a reference point for common questions about future plans (which I’m sure you can all attest to happen a lot! Certainly does for us!)
 
-- **Can be a useful Funnel to attract new customer**s - Simply put, if a user is looking to swap out from an exisiting service that offers a similar product and see you’re prioritising something their current provider isn’t it can be a good excuse for them to jump ship to you.
+- **Can be a useful Funnel to attract new customers** - Simply put, if a user is looking to swap out from an exisiting service that offers a similar product and see you’re prioritising something their current provider isn’t it can be a good excuse for them to jump ship to you.
 
 
 
@@ -183,12 +183,10 @@ Unlike many others there are 3 buckets, Planned, Started and Completed. He’s a
 
 - **Simplicity** - With planned, started and completed, it’s really easy to understand no scrolling to understand more. Each of these buckets has comments, upvotes and categories
 
-- S**eperate feature voting** - separating whats on the roadmap from the blog style page that allows users to request and vote on features clearly divides what’s 100% coming and what is
+- **Seperate feature voting** - separating whats on the roadmap from the blog style page that allows users to request and vote on features clearly divides what’s 100% coming and what is
   still in the request stage. It allows WP Fusion to prioritise easily those with the most votes, without mudding the water on what is happening and what’s still in ‘request’ mode.
   
-- **Changelog** - Having again another place for the changelog, that clearly highlights changes to exisiting features, bug fixes and delivered works, makes these interconnected but seperate
-  systems easier to navigate, understand and work with for the WP Fusion team. To be honest I had no idea what the version numbers meant but that’s clearly explained so that even a code illiterate
-  like me, could easily get what all these decimals meant.
+- **Changelog** - Having again another place for the changelog, that clearly highlights changes to exisiting features, bug fixes and delivered works, makes these interconnected but seperate systems easier to navigate, understand and work with for the WP Fusion team. To be honest I had no idea what the version numbers meant but that’s clearly explained so that even a code illiterate like me, could easily get what all these decimals meant.
 
 ### What Makes It Effective
 
@@ -196,12 +194,12 @@ In a word, simplicity, it’s really easy to follow as a lamen, and its a system
 
 ### Takeaways for Your Business
 
--**Think about dividing features, roadmap and change updates**** - Clearly show what’s coming, what’s rolling out, and what’s completed and nothing superfluous
+- **Think about dividing features, roadmap and change updates** - Clearly show what’s coming, what’s rolling out, and what’s completed and nothing superfluous
    
--**Make documentation great again**** - The way each feature and category takes you to a place to learn more means as a user I can really understand a lot
+- **Make documentation great again** - The way each feature and category takes you to a place to learn more means as a user I can really understand a lot
 without needing to reach out, masterclass in communications that build user trust and make great product.
   
--**Update regularly** - Having dates when each roadmap item is updated is pretty smart, it shows progress but doesn’t tie you down to delivery dates.
+- **Update regularly** - Having dates when each roadmap item is updated is pretty smart, it shows progress but doesn’t tie you down to delivery dates.
 
 ### 5. Notion’s Public Roadmap
 
@@ -211,8 +209,7 @@ without needing to reach out, masterclass in communications that build user trus
 
 </p>
 
-I’m putting Notion in here for a couple reasons, one I love the product, it’s replaced 10 other tools for me and wanted to highlight how to create value without having a public roadmap. 
-As [Notion](https://www.notion.com/releases) maintains only a list of new features and a list of older shipped features.
+I’m putting Notion in here for a couple reasons, one I love the product, it’s replaced 10 other tools for me and wanted to highlight how to create value without having a public roadmap. As [Notion](https://www.notion.com/releases) maintains only a list of new features and a list of older shipped features.
 
 ### Key Features
 
