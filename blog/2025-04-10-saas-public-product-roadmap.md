@@ -18,7 +18,7 @@ Things like a feature leader board, can you help engagement but you needn’t co
 
 ### What is a Public Product Roadmap?
 
-A public product roadmap can serve as a strategic communication tool that publicly outlines your product plans. 
+A public product roadmap can serve as a strategic communication tool that publicly outlines your product plans.
 It’s almost always a visual representation reveals what a company is currently working on, recent releases, and their general 
 product strategy—which anyone can freely view. 
 
