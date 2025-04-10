@@ -36,7 +36,6 @@ product strategy—which anyone can freely view.
 
 ### 1. GitHub’s Public Roadmap
 
-<img width="845" alt="1 GitHub-public-roadmap" src="https://github.com/user-attachments/assets/9449001e-63b2-4734-902b-d68dcaf96809" />
 
 -Github's Public Roadmap
 
@@ -84,7 +83,6 @@ When creating your own public roadmap, consider these lessons from GitHub:
 
 ### 2. Bracket’s Product Roadmap
 
-<img width="863" alt="2  Brackets-public-roadmap" src="https://github.com/user-attachments/assets/33a0ea9a-4954-4ec8-ae72-4cb833206530" />
 
 
 -Bracket's Public Roadmap
@@ -118,7 +116,6 @@ When implementing a Trello for your roadmap strategy:
 
 ### 3.Buffer’s Public Roadmap
 
-<img width="943" alt="3  Buffer-public-roadmap" src="https://github.com/user-attachments/assets/67020bc8-7ab1-410e-935b-259b4878fc01" />
 
 -Buffer's Public Roadmap
 
@@ -165,7 +162,6 @@ When designing your own public roadmap, consider these things from Buffer’s ap
 
 ### 4.WP Fusion’s Public Roadmap
 
-<img width="891" alt="4 WP-FusionPublic-Roadmap" src="https://github.com/user-attachments/assets/411b4b9b-1d00-4b96-a40b-592893672e61" />
 
 -WP Fusion's Public Roadmap
 
@@ -201,7 +197,6 @@ without needing to reach out, masterclass in communications that build user trus
 
 ### 5. Notion’s Public Roadmap
 
-<img width="1091" alt="Notions-whats-new" src="https://github.com/user-attachments/assets/208f7500-a113-4e17-bff2-e1ce4ccba006" />
 
 -Notions's Not Roadmap
 
@@ -241,7 +236,6 @@ Ultimately, Notion demonstrates that successful public roadmaps can come in diff
 
 ### 6. Softr’s Public Product Roadmap
 
-<img width="1104" alt="6 softr-" src="https://github.com/user-attachments/assets/5567c5d8-dec7-4c4a-a3b9-24e3a49fcae3" />
 
 
 -Softr's Public Roadmap
