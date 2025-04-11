@@ -6,13 +6,13 @@ tags: [digital dashboard examples,what is a visualization dashboard,store perfor
 description: What is a store performance dashboard and how can it help your store or e-commerce business?
 ---
 
-
 ### What is a Dashboard?
 
 When referring to a dashboard in software world, it is the command centre of your business. Much like a car dashboard, you see the key things speed, revs, miles travelled, oil temperature and any red flags. Unlike a car’s dashboard, you get to decide what you’re tracking. Is your north star only number of customers? Or do you need to track hot inventory and adapt your store as trends shift? A dashboard allows you to have an overview of your business without sifting through lots of data, spreadsheets or sales data. 
 
 Your dashboard is the key thing you need to know about your business on a daily, weekly and monthly basis.
 
+<!-- truncate -->
 
 ### What is a Store Performance Dashboard?
 

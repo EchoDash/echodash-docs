@@ -18,6 +18,8 @@ sell to marketers. They also provide end to end encryption, so only you can see 
 downside of the free plan, is you can’t use a custom domain. So you’ll end up with an email @proton. Proton in my opinion is one of the best apps for small business, it’s 
 as easy as Google to use and it’s nice to know your data is more protected. 
 
+<!-- truncate -->
+
 ![ProtonMail-app-inbox](https://github.com/user-attachments/assets/e81e099b-b17a-497f-b15b-6b25eb9b0198)
 
 [Gmail](https://workspace.google.com/intl/en-US/gmail/) - The tried and true.
