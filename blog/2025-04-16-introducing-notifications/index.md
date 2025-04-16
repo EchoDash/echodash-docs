@@ -1,13 +1,13 @@
 ---
 slug: introducing-notifications
-title: Introducing Notifications
+title: Product Update: Introducing Notifications
 authors: [jack]
 tags: [product-updates]
 ---
 
 Today's EchoDash app update v1.2.0 introduces our first set of notification features to the app.
 
-### How to use notifications
+## How to use notifications
 
 Head to your profile and click the "Notifications" tab. You can click the toggle next to any source to enable real-time browser notifications for that source.
 
@@ -15,7 +15,7 @@ Head to your profile and click the "Notifications" tab. You can click the toggle
 
 Your browser will prompt you one time to allow notifications from EchoDash. Once enabled, desktop notifications will appear as long as the EchoDash tab is open in your browser.
 
-#### Notifications by event
+## Notifications by event
 
 <!-- truncate -->
 
