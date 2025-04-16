@@ -1,6 +1,6 @@
 ---
 slug: introducing-notifications
-title: Product Update: Introducing Notifications
+title: Product Update - Introducing Notifications
 authors: [jack]
 tags: [product-updates]
 ---
