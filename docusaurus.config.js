@@ -158,7 +158,7 @@ const config = {
             items: [
               {
                 label: 'Slack',
-                href: 'https://echodash.slack.com',
+                href: 'https://echodashcommunity.slack.com',
               },
               {
                 label: 'X',
