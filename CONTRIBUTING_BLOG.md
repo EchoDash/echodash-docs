@@ -129,6 +129,6 @@ To upload files through GitHub:
 
 ## Need Help?
 
-- Join our [Slack community](https://echodash.slack.com)
+- Join our [Slack community](https://echodashcommunity.slack.com)
 - Email the team at support@echodash.com
 - Ask questions in your PR - we're happy to help! 
