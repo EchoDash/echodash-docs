@@ -157,8 +157,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Slack',
-                href: 'https://echodashcommunity.slack.com',
+                label: 'Discord',
+                href: 'https://discord.gg/bEZaBrvawK',
               },
               {
                 label: 'X',
@@ -174,6 +174,10 @@ const config = {
                 to: '/blog',
               },
               {
+                label: 'Blog Archive',
+                to: '/blog/archive',
+              },
+              {
                 label: 'GitHub',
                 href: 'https://github.com/EchoDash/',
               },
@@ -184,6 +188,16 @@ const config = {
       },
       prism: {
         theme: prismThemes.github,
+      },
+      metadata: [
+        {name: 'description', content: 'EchoDash - A real time events platform for everything you do online. See all your business activity in one place.'},
+        {name: 'keywords', content: 'events platform, business dashboard, real-time monitoring, business analytics'},
+      ],
+      // Open Graph metadata
+      ogImage: 'img/og-image.jpg',
+      twitter: {
+        username: 'echodashh',
+        cardType: 'summary_large_image',
       },
     }),
 
@@ -204,6 +218,23 @@ const config = {
         apiKey: "phc_b4NxwL0NHDDzeV2KkRbh4DFvLGYbrlahnqK7JNHCADL",
         appUrl: "https://eu.i.posthog.com",
         enableInDevelopment: true,
+      },
+    ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          // Add known redirects here
+          {
+            from: '/docs',
+            to: '/docs/intro',
+          },
+        ],
+        createRedirects(existingPath) {
+          // Create redirects for moved content
+          // This function runs for each existing path
+          return [];
+        },
       },
     ],
   ],

@@ -149,5 +149,5 @@ Main configuration is in `docusaurus.config.js`. Key areas:
 ## Need Help?
 
 - Check the [Docusaurus documentation](https://docusaurus.io/docs)
-- Join our [Slack community](https://echodashcommunity.slack.com)
+- Join our [Discord community](https://discord.gg/bEZaBrvawK)
 - Email the team at support@echodash.com
