@@ -69,4 +69,5 @@ EchoDash is currently in early access, and our core event feed feature will rema
 
 - [Learn how to send data](/docs/sending-data)
 - [Install the WordPress plugin](/docs/echodash-plugin)
+- [View our latest releases](/releases)
 - [Contact us](/contact) for support or feature requests

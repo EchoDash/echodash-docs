@@ -6,6 +6,8 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
+require('dotenv').config();
+
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
@@ -46,6 +48,13 @@ const config = {
       },
     },
   ],
+  
+  // Make environment variables available to the client-side code
+  customFields: {
+    // Pass GitHub token to client if available
+    githubToken: process.env.RELEASES_TOKEN || '',
+  },
+  
   presets: [
     [
       'classic',
@@ -104,6 +113,7 @@ const config = {
             label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/releases', label: 'Releases', position: 'left'},
           {to: '/contact', label: 'Contact', position: 'left'},
           {
             href: 'pathname:///users/sign_in',
