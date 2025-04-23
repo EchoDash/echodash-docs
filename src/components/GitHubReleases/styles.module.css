@@ -1,0 +1,141 @@
+.releasesWrapper {
+  max-width: 1012px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.releasesWrapper h1 {
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.releasesList {
+  margin-top: 2rem;
+}
+
+.releaseItem {
+  margin-bottom: 2.5rem;
+  padding: 2rem;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.releaseItem:last-child {
+  border-bottom: none;
+}
+
+.releaseTitle {
+  margin-bottom: 0.25rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.releaseTitle a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.releaseTitle a:hover {
+  text-decoration: underline;
+}
+
+.releaseInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.875rem;
+}
+
+.releaseTag {
+  display: inline-block;
+  padding: 0.12rem 0.625rem;
+  margin-right: 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 2em;
+  color: var(--ifm-color-primary);
+  background: transparent;
+}
+
+.releaseDate {
+  color: var(--ifm-color-emphasis-600);
+}
+
+.releaseBody {
+  color: var(--ifm-font-color-base);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.releaseBody h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.releaseBody h3 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.releaseBody h4 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.releaseBody ul {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.releaseBody li {
+  margin-bottom: 0.25rem;
+}
+
+.releaseBody a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.releaseBody a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: var(--ifm-color-danger);
+  margin: 2rem 0;
+  padding: 2rem;
+  border-radius: 6px;
+  text-align: center;
+  background-color: var(--ifm-background-color);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.errorHelp {
+  margin-top: 1rem;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.875rem;
+}
+
+.viewAllLink {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.iframeContainer {
+  width: 100%;
+  margin: 2rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--ifm-color-emphasis-200);
+} 
