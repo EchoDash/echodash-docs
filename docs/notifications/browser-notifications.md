@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: Using Notifications
+title: Browser Notifications
 description: Learn how to configure and use real-time browser notifications with EchoDash
 ---
 
@@ -16,7 +16,7 @@ To start receiving notifications:
 2. Click the "Notifications" tab
 3. Toggle notifications for specific sources you want to monitor
 
-![Notifications by source](../blog/2025-04-16-introducing-notifications/notifications-by-source.jpg)
+![Notifications by source](../../blog/2025-04-16-introducing-notifications/notifications-by-source.jpg)
 
 Your browser will prompt you once to allow notifications from EchoDash. After enabling this permission, desktop notifications will appear as long as you have the EchoDash tab open in your browser.
 
@@ -39,7 +39,7 @@ For more granular control, EchoDash allows you to configure notifications based 
 2. Select the specific events you want to receive notifications for
 3. Toggle notifications for each event type
 
-![Notifications by event](../blog/2025-04-16-introducing-notifications/notifications-by-event.jpg)
+![Notifications by event](../../blog/2025-04-16-introducing-notifications/notifications-by-event.jpg)
 
 ## Browser Compatibility
 

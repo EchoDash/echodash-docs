@@ -50,6 +50,7 @@ EchoDash solves notification overload by:
    - [Fatal Error Notify](https://fatalerrornotify.com/)
    - Direct webhook integration
    - Native integrations (coming soon)
+4. [Enable notifications](/docs/notifications/browser-notifications)
 
 ## Supported Integrations
 
