@@ -60,13 +60,35 @@ export default function GitHubReleases(): JSX.Element {
     if (!body) return '';
     
     return body
+      // Normalize line endings
       .replace(/\r\n/g, '\n')
+      
+      // Handle lists (both - and *)
+      .replace(/^[\s]*[*-][\s]+(.+)$/gm, '<li>$1</li>')
+      // Wrap consecutive list items in ul and remove empty lines between them
+      .replace(/(<li>.*<\/li>\n*)+/g, (match) => {
+        return '<ul>' + match.replace(/\n+/g, '\n') + '</ul>';
+      })
+      
+      // Handle headings
       .replace(/### (.*)\n/g, '<h4>$1</h4>\n')
       .replace(/## (.*)\n/g, '<h3>$1</h3>\n')
       .replace(/# (.*)\n/g, '<h2>$1</h2>\n')
-      .replace(/\n\n/g, '<br /><br />')
-      .replace(/- (.*)\n/g, '<li>$1</li>\n')
-      .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
+      
+      // Handle paragraphs, but skip lines that are part of lists or headers
+      .replace(/^(?!<[hul])[^\n].+$/gm, '<p>$&</p>')
+      
+      // Handle links - exclude GitHub links
+      .replace(/\[(.*?)\]\((.*?)\)/g, (match, text, url) => {
+        if (url.includes('github.com')) {
+          return text;
+        }
+        return `<a href="${url}" target="_blank" rel="noopener noreferrer">${text}</a>`;
+      })
+      
+      // Clean up
+      .replace(/<p>\s*<\/p>/g, '')
+      .replace(/\n+/g, '\n');
   };
 
   if (loading) {
