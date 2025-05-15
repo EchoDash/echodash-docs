@@ -203,7 +203,7 @@ These questions while help you figure it out:
 
 - **Keep It Simple & Review Ofte**n: Whatever tool you use, keep the framework itself simple. We're talking high-level strategy, so resist the temptation to dive into the weeds of solution design in this document. Also, set a reminder to revisit the strategy framework at key intervals, it's not useful if it's not actually used.
 
-So!!! Encourage a culture where team members actually read and reference the product strategy. It's not meant to be a beautiful PDF that collects dust in Google Drive. Incorporate it into onboarding for new team members. Bring it up in planning meetings. Send annoying automated emails with updates, make it something people think about when they can't sleep.
+So!!! Encourage a culture where team members actually read and reference the product strategy. It's not meant to be a beautiful PDF that sits in your file sharing platform of choice and is never opened again. Incorporate it into onboarding for new team members. Bring it up in planning meetings. Send annoying automated emails with updates, make it something people think about when they're having insomnia, the way I do about regsirating for things in Germany.
 
 
 ### Who Actually Makes a Product Strategy Framework
