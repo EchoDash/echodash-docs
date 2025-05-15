@@ -1,16 +1,16 @@
 ---
 sidebar_position: 2
-title: Sending Data to EchoDash
+title: Developer Guide
 description: Learn how to send webhook data to EchoDash and configure request behavior
 ---
 
 # Sending Data to EchoDash
 
-EchoDash accepts any JSON or form-encoded data via POST request out of the box. By default, it uses AI to automatically analyze your payload and extract the most relevant key/value pairs for display in your event feed. No configuration needed.
+Once you've [created an endpoint](/docs/endpoints/creating-endpoints), you can start sending webhook data to it. EchoDash accepts any JSON or form-encoded data via POST request out of the box. By default, it uses AI to automatically analyze your payload and extract the most relevant key/value pairs for display in your event feed.
 
 ```bash
 # Simplest possible usage - just POST any JSON data
-curl -X POST https://echodash.com/endpoints/XYZ/receive \
+curl -X POST https://echodash.com/endpoints/YOUR_ENDPOINT_SLUG/receive \
   -H "Content-Type: application/json" \
   -d '{
     "any": "data",
@@ -71,7 +71,7 @@ This will create an event with the name "Event Name" and the source "Your Source
 ### Disable AI Summarization
 
 ```bash
-curl -X POST https://echodash.com/endpoints/XYZ/receive \
+curl -X POST https://echodash.com/endpoints/YOUR_ENDPOINT_SLUG/receive \
   -H "ECD-Summarize: false" \
   -H "Content-Type: application/json" \
   -d '{
@@ -90,3 +90,10 @@ curl -X POST https://echodash.com/endpoints/XYZ/receive \
 2. **Meaningful Event Names**: Use descriptive event names that clearly indicate the type of event
 3. **Structured Data**: When possible, use the `values` format for automatic type inference
 4. **AI Processing**: Only disable AI summarization when you have pre-formatted data or want raw processing
+
+## Next Steps
+
+After you've started sending data to your endpoint:
+- Configure [browser notifications](/docs/notifications/browser-notifications) to get alerted when new events arrive
+- Set up [email digests](/docs/notifications/email-digests) to receive summaries of your webhook events
+- Look at your events in the [Sources panel](/docs/endpoints/creating-endpoints#viewing-endpoint-details) to see how they're organized 
