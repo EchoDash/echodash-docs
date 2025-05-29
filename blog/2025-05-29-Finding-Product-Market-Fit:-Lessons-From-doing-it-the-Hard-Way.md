@@ -8,13 +8,15 @@ description: What actually is product market fit, actionable steps you can take.
 
 ## Finding Product-Market Fit: Lessons From Doing the Hard Way ( My Skull vs Concrete)
 
-**"Product/market fit** occurs when a business continues to grow due 
-to customer demand.Not because you landed a $15K pilot, not 
-because 50 people told you your idea is great, and definitely not because a 
-company said they *would* pay $1,000 (but meant $100, yep these all actually happened, 
-to add to it that stakeholder left, so remember who you interview and sell to and what
-happens if they leave really matters).PMF isn't revenue, even bad services can make money. 
-It's repeat usage. Retention. Pull from the market, not push.
+**"Product/market fit** occurs when you feel like you're strapped to a rocket.
+Not because you landed a $15K pilot, not because 50 people told you your idea 
+is great, and definitely not because a company said they *would* pay $1,000 
+(but meant $100, yep these all actually happened, to add to it that stakeholder left, 
+so remember who you interview and sell to and what happens if they leave really matters).
+PMF isn't revenue, even bad products or services can make money. 
+
+It's repeat usage. Retention. Pull from the market, not push. Not 
+customer acquisition costs that's more than Life time value.
 
 **How do I know?**
 
