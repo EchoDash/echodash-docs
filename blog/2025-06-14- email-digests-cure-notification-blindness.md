@@ -21,7 +21,7 @@ the past, one I still remember, a particularly high value client needing help, b
 We’ve been working on a solution, 100% custom to your business email alerts. Skip to how to setup them up free, 
 [here](https://echodash.com/docs/notifications/email-digests)
 
-## What Are Email Digests in EchoDash?
+### What Are Email Digests in EchoDash?
 
 Dashboards are great — but for many they aren’t customisable enough, you still gotta tab jump and then stitch this together.
 
@@ -41,7 +41,7 @@ That’s what Email Digests do:
 
 Think of it as **your daily command centre update**. Basically you can automate your business alerts with email digests.
 
-## Why Use Email Digests?
+### Why Use Email Digests?
 
 The most common thing we’ve heard in every founder would love to reduce notification overload. Pretty much had 
 one or more of these issues:
@@ -54,7 +54,7 @@ one or more of these issues:
 
 Customised email digests solve all of these problems.
 
-## What’s Inside a Digest Email?
+### What’s Inside a Digest Email?
 
 Each email digest includes:
 
@@ -66,7 +66,7 @@ Each email digest includes:
 
 It’s all signal, no noise.
 
-## Managing a Digest Email
+### Managing a Digest Email
 
 Change your mind later? No problem.
 
@@ -77,7 +77,7 @@ You can:
 - Change delivery frequency
 - Or hit **“unsubscribe”** from any digest email to stop them entirely
 
-## What is a Webhook Notification?
+### What is a Webhook Notification?
 
 It’s a question that would have stumped me not so long ago, honestly before working with Jack I had no idea WTF a webhook was.
 let alone a web hook notification. Basically what makes them so cool is they’re packets of data sent out from any service you 
@@ -88,7 +88,7 @@ Webhook notifications are basically files with data that EchoDash can turn into 
 Better yet even I, a code illiterate, can integrate a Webhook into EchoDash, so they’re very easy to use to build your custom emails,
 custom dashboards and of course to utilise EchoDash’s free business dashboard feed.
 
-## Slack vs Email Notification?
+### Slack vs Email Notification?
 
 Slack is a pretty useful tool and we’ve sang it’s praises, most teams we spoke to use it for at least something and many use
 dedicated slack channels to intake their webhook notifications. Which can be great if all those alerts are meaningful and don’t
@@ -98,7 +98,7 @@ However in many cases these dedicated slack channels work very well for the firs
 but as your business grows so does the noise, and we’ve heard how often “slack notifications not working”. Our Email digests
 Can solve both of these issues.
 
-## Why Email Digests Work?
+### Why Email Digests Work?
 
 We didn’t build digests because email is cool. We built them because **not everyone wants another Slack ping** 
 or lives in a dashboard. Email has been around for more than 50 years because it’s pretty darn flexible and  of course
@@ -115,7 +115,7 @@ That’s what we built and we love it (and use it personally because:)
 
 ## How Does this Apply to Me? Use Cases by Role.
 
-**Solopreneurs & Founders**
+![soloprenuer-founders](https://github.com/user-attachments/assets/842fe7d0-0d3b-44aa-8061-3047661b37e2)
 
 - Time saved: >5 hours/week
 
@@ -131,8 +131,9 @@ Instead of jumping into  the native alerts and activity feeds of;Stripe, Notion,
 Get a high-signal pulse on the business each morning without jumping between tabs. The ultimate timely and no nonsense business
 Intelligence alerts
 
-**Customer Support Teams**
-- Time saved: 1–2 hours/day|
+![customer-support-teams](https://github.com/user-attachments/assets/ab7b7df1-6e20-4f3a-856b-79d151c2cd26)
+
+- Time saved: 1–2 hours/day
 
 Email digests can give a view of:
 
@@ -147,7 +148,8 @@ All of this can help you:
 - Triage customer issues without checking 4 inboxes
 - Spot churn risks early
 
-**Ecommerce Store Owners**
+![e-commerce-founders](https://github.com/user-attachments/assets/ac4e84d2-a409-47fa-8215-685eb699f8f3)
+
 - Time saved: 2–3 hours/week
 
 Your email digest  could cover:
@@ -158,7 +160,8 @@ Your email digest  could cover:
 - Out-of-stock alerts
 - Failed payments
 
-**Educators / LMS Businesses**
+![educators-lms-businesses](https://github.com/user-attachments/assets/b1e25b78-baa1-439f-b3b6-1032cf3c8e1c)
+
 - Time saved: 1–2 hours/day
 
 Digest could include:
@@ -176,7 +179,7 @@ All of this allows you to:
 - See who’s behind, who’s stuck, who’s acing it
 - Focus on the students that need your help most
 
-**Dev Teams & Product Managers**
+![Dev-teams-and-project-managers](https://github.com/user-attachments/assets/dba73ee1-6e88-48a7-8604-359e1a6b1494)
 
 - Time saved: Hours of context-switching
 
@@ -195,9 +198,10 @@ Allow of this allows you to:
 - Create engineering team email updates
 - simplify GitHub notifications
 
-**Benefit**: Less talking to people more time coding and staying inside.
+Benefits: Less talking to people more time coding and staying inside.
 
-**Sales & CRM Users**
+![Sales-crm-users](https://github.com/user-attachments/assets/4ba35110-ca8e-46f0-8ebb-f59dab18242e)
+
 
 Problem: Leads falling through the cracks 
 Time saved: 3–5 hrs/week 
@@ -214,7 +218,7 @@ How email digests help:
 - Know which deals are stalling
 - See activity across multiple CRM
 
-**Marketing Teams**
+![marketing-teams](https://github.com/user-attachments/assets/1ac6805e-0cc7-4e31-b64c-32942039ffab)
 
 Problem: Too many sources 
 Time saved: 1–2 hrs/day
@@ -229,7 +233,8 @@ Time saved: 1–2 hrs/day
 - Budget exceeded
 - Negative feedback
 
-**Finance Teams**
+![Finance-teams](https://github.com/user-attachments/assets/a3fe4c70-17c1-46fe-ae3b-27585f068dd5)
+
 Time saved: 2–3 hrs/week 
 Problem: Payment failures, invoices, and billing spread across systems 
 
@@ -238,15 +243,13 @@ How email digests help:
 - Track incoming payments, overdue invoices
 - See transaction issues early
 - Stay ahead of cash flow gaps
-
-Example Events: 
-
-- Invoice unpaid > 7 days
+- See if Invoice unpaid > 7 days
 - Subscription failed
 - Payment complete
 - Refund issued
 
-**Agencies (Dev, Marketing, WP, etc.)**
+![agencies,dev,marketing,wp](https://github.com/user-attachments/assets/5349b370-28cd-4152-8e60-c0e8197d7eff)
+
 Time saved: 4–6 hrs/week 
 
 Problem: Juggling alerts across client tools How email digests help:
@@ -258,14 +261,16 @@ Problem: Juggling alerts across client tools How email digests help:
 - Get Downtime alerts
 
 
-## Real-World Example: Cutting Dashboard Time by 10H a Week.
+### Real-World Example: Cutting Dashboard Time by 10H a Week.
 
-A solo founder we worked with went from:
-“I spend the 2 hours of every day checking Stripe, Notion, Slack, Matomo, and my inbox...
+A solo founder we closely worked with went from:
+
+- “I spend the 2 hours of every day checking Stripe, Notion, Slack, Matomo, and my inbox...
  just to see what broke overnight”
 
 To:
-“One email digest at 8AM, and I know exactly what’s happened, what needs a reply, and if anything’s broken.”
+
+- “One email digest at 9.30AM, and I know exactly what’s happened, what needs a reply, and if anything’s broken.”
 
 That’s **10+ hours back every week.**
 
@@ -280,10 +285,6 @@ That’s **10+ hours back every week.**
 
 This is the antidote to notification fatigue and inbox chaos.
 
----
-
-## Bonus: Who This Works For
-
 Email Digests are especially useful if you:
 
 - **Use 5+ SaaS tools** and waste time switching tabs
@@ -291,6 +292,6 @@ Email Digests are especially useful if you:
 - **Work in CS, dev, ops, product or marketing** and want a single view of what matters
 - **Manage clients or properties** and don’t want to log into 100 instances a day
 
-If you’ve ever said “I wish I had one place that just told me what’s going on”,** this is that place.**
+If you’ve ever said “I wish I had one place that just told me WTF is going on”,[**this is that place.**](https://echodash.com/docs/notifications/email-digests)
 
 
