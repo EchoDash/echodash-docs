@@ -208,9 +208,10 @@ Time saved: 3–5 hrs/week 
 
 Digests could include:
 
- - New lead created 
+- New lead created 
 - Inactive deal alert
- - Sales email reply - Demo request
+- Sales email reply
+-  Demo request
 
 How email digests help:
 
