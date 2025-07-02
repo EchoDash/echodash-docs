@@ -1,0 +1,181 @@
+# EchoDash - Central Notification Center
+
+EchoDash is a central notification center that aggregates all your online activities, events, alerts, and notifications from any software you use into a real-time feed, providing actionable insights through AI-powered analysis.
+
+## Core Features
+
+### 1. Centralized Event Feed
+- Real-time updates from all connected services
+- AI-powered summarization of events
+- Customizable views and filters
+- Central dashboard for all notifications
+
+### 2. Smart Notifications
+- Cut down on notification noise
+- Filter notifications by source or type
+- Browser notifications for real-time alerts
+- Email digests for periodic summaries
+- See only the alerts that matter
+
+### 3. Webhook Endpoints
+- Create unlimited webhook endpoints
+- Unique URLs for each endpoint (https://echodash.com/endpoints/YOUR_ENDPOINT_SLUG/receive)
+- Accept any JSON or form-encoded data via POST
+- AI-powered automatic data extraction and analysis
+- Support for custom data formats and processing
+
+### 4. Team Collaboration
+- Personal and team accounts (sub-accounts)
+- Custom alerts and feeds for each team
+- User roles (Admin, Member)
+- Account switching and management
+- Team member invitation system
+- Account ownership transfer
+
+### 5. Data Security & Privacy
+- Never sell your data
+- You control data retention
+- Delete your data permanently at any time
+- Secure HTTPS transmission
+- No sensitive data storage (passwords, payment details)
+
+## WordPress Plugin Integration
+
+EchoDash provides a comprehensive WordPress plugin that tracks user events and interactions across WordPress sites.
+
+### Supported WordPress Integrations:
+- **AffiliateWP** - Track referrals and affiliate activity
+- **Abandoned Cart** - Monitor abandoned shopping carts
+- **bbPress** - Track forum activity and engagement
+- **BuddyPress** - Follow member interactions
+- **Easy Digital Downloads** - Monitor purchases and downloads
+- **EDD Recurring** - Track subscription payments
+- **EDD Software Licensing** - Monitor license activations
+- **GamiPress** - Track achievements and rewards
+- **Give** - Track donations and donor activity
+- **Gravity Forms** - Track form submissions
+- **LearnDash** - Monitor course progress
+- **LifterLMS** - Follow student progress
+- **Presto Player** - Track video engagement
+- **WooCommerce** - Track orders and customer behavior
+- **WooCommerce Subscriptions** - Monitor subscriptions
+- **WordPress Core** - Track updates
+- **Users** - Track logins
+
+### WordPress Plugin Features:
+- Pre-configured events for each integration
+- Customizable event names and data fields
+- Merge fields for dynamic data inclusion
+- Test event functionality
+- Non-blocking API calls (no site slowdown)
+
+## Notification System
+
+### Browser Notifications
+- Real-time desktop notifications
+- Works with Chrome, Firefox, Safari, Edge
+- Source-based notification filtering
+- Event-type based filtering
+- Requires EchoDash tab to be open
+
+### Email Digests
+- Periodic email summaries of webhook events
+- Configurable delivery frequency (Daily, etc.)
+- Filter by source or event type
+- Preview functionality
+- Unsubscribe options
+- Grouped events by source with counts
+
+## Developer Integration
+
+### API Endpoints
+- Simple POST requests to webhook URLs
+- Support for JSON and form-encoded data
+- Custom headers for control:
+  - `User-Agent`: Include "EchoDash" to identify as EchoDash client
+  - `ECD-Summarize`: Set to "false" to disable AI summarization
+
+### Native Data Format
+```json
+{
+  "event": "Event Name",
+  "source": "Your Source Name", 
+  "values": {
+    "key1": "value1",
+    "key2": "value2"
+  }
+}
+```
+
+### Data Processing
+- Automatic type inference (numbers, dates, URLs, booleans, text)
+- Source identification and grouping
+- Request fingerprinting to prevent duplicates
+- AI-powered summarization (can be disabled)
+
+## Supported Integrations
+
+EchoDash works with any service that can send webhooks, including:
+- **Payment processors** (Stripe, WooCommerce)
+- **Form builders** (Gravity Forms, Calendly)
+- **Project management** (GitHub, Jira)
+- **Analytics platforms**
+- **Custom applications**
+- **WordPress Plugin** (comprehensive integration)
+- **ConversionBridge**
+- **Fatal Error Notify**
+
+## Account Management
+
+### Personal Accounts
+- Default account created at signup
+- Shows all notifications from personal and team accounts
+- Central view of all activities
+
+### Team Accounts (Sub-accounts)
+- Shared accounts for collaboration
+- Separate endpoints and sources per team
+- Useful for grouping by projects, departments, or businesses
+- Similar to GitHub's organization model
+
+### User Management
+- Invite users via email
+- Two role types:
+  - **Admin**: Full access to settings and member management
+  - **Member**: Manage sources/endpoints/notifications, no user management
+- Account switching interface
+- User removal and self-removal options
+- Account ownership transfer
+
+## Getting Started
+
+1. Create a free account at https://echodash.com/users/sign_up
+2. Get your webhook URL at https://echodash.com/endpoints
+3. Choose integration method:
+   - WordPress Plugin (https://wordpress.org/plugins/echodash/)
+   - Direct webhook integration
+   - Native integrations
+4. Enable notifications
+
+## Key Benefits
+
+- **Notification Consolidation**: Single place for all alerts
+- **AI Analysis**: Intelligent summarization and insights
+- **Team Collaboration**: Shared accounts and role management
+- **Developer Friendly**: Simple webhook API
+- **WordPress Integration**: Comprehensive plugin with 20+ supported plugins
+- **Real-time Alerts**: Browser and email notifications
+- **Data Control**: Full control over data retention and deletion
+- **Scalable**: Works for individuals and teams
+
+## Early Access Program
+
+EchoDash is currently in early access with the core event feed feature remaining free forever. The platform is actively being developed with new features and integrations being added regularly.
+
+## Technical Details
+
+- **Performance**: Non-blocking API calls, no impact on source applications
+- **Security**: HTTPS transmission, no sensitive data storage
+- **Reliability**: Webhook fingerprinting prevents duplicates
+- **Flexibility**: Accepts any JSON/form data, AI extracts relevant information
+- **Customization**: Configurable notifications, filters, and team settings 
