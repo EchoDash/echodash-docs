@@ -124,7 +124,7 @@ const config = {
           },
           {
             href: 'pathname:///users/sign_up',
-            label: 'Request Access',
+            label: 'Get Started',
             position: 'right',
             className: 'tw-btn request-access-link',
             target: null,
