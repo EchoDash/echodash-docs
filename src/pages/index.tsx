@@ -11,7 +11,6 @@ import CircleArrow from '@site/static/img/landing/circle-arrow-right.svg';
 import Feature from '../components/Feature';
 import FAQ from '../components/FAQ';
 import { features } from '../data/features';
-import MailjetForm from '../components/MailjetForm';
 
 export default function Home() {
 
@@ -40,7 +39,7 @@ export default function Home() {
                 target="_self"
                 className="tw-btn tw-btn-primary tw-py-3 tw-px-6 tw-text-lg tw-block tw-text-center tw-bg-[#FAFF00] tw-text-[#0A0079] hover:tw-bg-[#FAFF00] hover:tw-text-[#0A0079] focus:tw-bg-[#FAFF00] focus:tw-text-[#0A0079]"
             >
-                Request Early Access
+                Get Started
             </Link>
             </div>
         </div>
@@ -63,10 +62,6 @@ export default function Home() {
             />
         </div>
 
-        {/* Email Signup Section */}
-        <div className="tw-max-w-7xl tw-mx-auto tw-mb-24 tw-flex tw-flex-col tw-items-center">
-            <MailjetForm />
-        </div>
 
         {/* Why EchoDash Section */}
         <div className="tw-pb-8 tw-gap-6 tw-max-w-7xl tw-mx-auto tw-flex tw-flex-col tw-items-start tw-justify-center lg:tw-pb-32">
@@ -87,16 +82,15 @@ export default function Home() {
             <span className="tw-bright tw-text-xl tw-font-medium">Free to get started. No credit card needed.</span>
             <Heading as="h2" className="tw-text-6xl tw-leading-none tw-text-center tw-text-[#0A0079] lg:tw-text-9xl">
             <span className="tw-block tw-w-full tw-text-white">Free</span> 
-            <span style={{ textShadow: '2px 2px 0 #FAFF00, -2px 2px 0 #FAFF00, -2px -2px 0 #FAFF00, 2px -2px 0 #FAFF00' }}>while in early access</span>
+            <span style={{ textShadow: '2px 2px 0 #FAFF00, -2px 2px 0 #FAFF00, -2px -2px 0 #FAFF00, 2px -2px 0 #FAFF00' }}>forever</span>
             </Heading>
-            <p className="tw-text-white tw-text-center tw-text-xl">EchoDash's first product, the event feed, will be <u>free forever</u>.<br/>Help us prioritize what to build next.</p>
+            <p className="tw-text-white tw-text-center tw-text-xl">EchoDash's event feed is <u>free forever</u>.<br/>Help us prioritize what to build next.</p>
 
             {/* Pricing Section */}
             <div className="tw-w-full tw-mb-16 tw-mt-4 tw-m-auto tw-flex tw-items-end tw-border-[3px] tw-border-[#FAFF00] tw-rounded-[48px] tw-overflow-hidden lg:tw-mb-32">
             <div className="tw-px-12 tw-py-16 tw-flex tw-flex-col tw-gap-10 tw-w-full lg:tw-max-w-lg">
                 <div className="tw-flex tw-flex-col tw-gap-2">
                 <Heading as="h3" className="tw-text-5xl">Free</Heading>
-                <span className="tw-text-xl">(During early access)</span>
                 </div>
                 <Heading as="h3">
                     <span className="tw-text-7xl tw-mr-2">$0</span><span className="tw-text-5xl">/month</span>
@@ -144,7 +138,7 @@ export default function Home() {
             target="_self"
             className="tw-btn tw-btn-primary tw-py-3 tw-px-6 tw-text-lg tw-block tw-text-center tw-bg-[#FAFF00] tw-text-[#0A0079] hover:tw-bg-[#FAFF00] hover:tw-text-[#0A0079] focus:tw-bg-[#FAFF00] focus:tw-text-[#0A0079]"
             >
-            Request Early Access
+            Get Started
             </Link>
         </div>
     </main>
