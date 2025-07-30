@@ -2,7 +2,7 @@
 slug: software-to-manage-business
 title: Software to Manage Business Operations
 authors: [alex]
-tags: [features,echodash,slack,software-stack,wp-agency,wp]
+tags: [features, echodash, integrations, business-tools, wordpress]
 description: A quick look at tools to manage the software stack and tools you use to run your business
 ---
 

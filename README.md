@@ -82,7 +82,7 @@ To create a new blog post, you have two options:
 slug: welcome-docusaurus
 title: Welcome Docusaurus
 authors: [jack]
-tags: [hello]
+tags: [news]
 ---
 
 Your content here...

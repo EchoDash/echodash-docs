@@ -2,7 +2,7 @@
 slug: 6-saas-public-product-roadmap-examples
 title: 6 SaaS Public Product Roadmap Examples
 authors: [alex]
-tags: [product-development,product-strategy]
+tags: [product-development, product-strategy]
 description: Product roadmap examples from the software providers and how these can help you plan and communicate better.
 ---
 
