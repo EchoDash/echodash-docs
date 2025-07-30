@@ -2,7 +2,7 @@
 slug: store-performance-dashboards
 title: Store Performance Dashboards
 authors: [alex]
-tags: [digital-dashboard-examples,visualization-dashboard,store-performance,software-development-metrics,retail-store]
+tags: [dashboards, retail, analytics]
 description: What is a store performance dashboard and how can it help your store or e-commerce business?
 ---
 

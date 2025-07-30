@@ -2,7 +2,7 @@
 slug: automated-social-media-reports-dashboard-guide
 title: Automated Social Media Reports & Dashboard Guide
 authors: [alex]
-tags: [social-media-dashboards,social-dashboard,social-media-analytics-dashboard,social-media-reporting-dashboard,instagram-dashboard-template,social-media-project-management,social-media-management-dashboard,social-media-optimization-agency,social-media-optimization-services,social-media-content-creation-services,digital-marketing-apps,social-media-optimization-company]
+tags: [dashboards, analytics, automation, guides]
 description: A founder's guide to automated social media reports, how to build a social media analytics dashboard, and when to use social media optimization agencies or do it yourself.
 ---
 

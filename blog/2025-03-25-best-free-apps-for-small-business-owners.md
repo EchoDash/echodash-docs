@@ -2,7 +2,7 @@
 slug: best-free-apps-for-small-business-owners
 title: The Best Free Apps for Small Business Owners
 authors: [alex]
-tags: [business-management,free-apps,small-biz,small-business-apps,tools-for-small-business,apps,software,tools,company-owner]
+tags: [small-business, business-tools, guides]
 description: Some of the best free apps and tools for small business owners, that help you run every different part of your business.
 ---
 

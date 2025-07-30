@@ -2,7 +2,7 @@
 slug: best-productivity-apps
 title: The Best Productivity Apps (That Actually Save You Time)
 authors: [alex]
-tags: [best-productivity-apps,adhd-productivity-apps,productivity-software,mac-productivity-apps,best-ipad-productivity-apps,best-apps-for-farm-productivity,best-productivity-apps-for-students,productivity-apps-for-students]
+tags: [productivity, business-tools, guides]
 description: My ADHD brain has tested hundreds of apps. Here’s a non-fluffy, actually-useful list of the best productivity apps for founders, students, teams and even farmers.
 ---
 
