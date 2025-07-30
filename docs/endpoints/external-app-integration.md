@@ -89,12 +89,12 @@ function echodash_redirect_to_create_endpoint() {
 	$site_name    = get_bloginfo( 'name' );
 
 	$args = array(
-        'source'       => 'WordPress',
-        'site_name'    => $site_name,
-        'redirect_uri' => $redirect_uri,
-        'state'        => $state,
-        'a'            => 'plugin_install',
-    );
+		'source'       => 'WordPress',
+		'site_name'    => $site_name,
+		'redirect_uri' => $redirect_uri,
+		'state'        => $state,
+		'a'            => 'plugin_install',
+	);
 
 	$url = add_query_arg( $args, 'https://echodash.com/endpoints/new' );
 	wp_redirect( $url );
@@ -143,44 +143,44 @@ add_action( 'admin_init', 'echodash_handle_callback' );
 ```javascript
 // Redirect user to EchoDash
 function redirectToEchoDash(siteName) {
-    const redirectUri = `${window.location.origin}/integration/callback`;
-    const state = generateSecureToken(); // Your CSRF token generation
-    
-    const params = new URLSearchParams({
-        source: 'My App',
-        site_name: siteName,
-        redirect_uri: redirectUri,
-        state: state,
-        a: 'app_integration'
-    });
-    
-    // Store state for validation
-    sessionStorage.setItem('echodash_state', state);
-    
-    window.location.href = `https://echodash.com/endpoints/new?${params}`;
+	const redirectUri = `${window.location.origin}/integration/callback`;
+	const state = generateSecureToken(); // Your CSRF token generation
+	
+	const params = new URLSearchParams({
+		source: 'My App',
+		site_name: siteName,
+		redirect_uri: redirectUri,
+		state: state,
+		a: 'app_integration'
+	});
+	
+	// Store state for validation
+	sessionStorage.setItem('echodash_state', state);
+	
+	window.location.href = `https://echodash.com/endpoints/new?${params}`;
 }
 
 // Handle callback
 function handleCallback() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const state = urlParams.get('state');
-    const storedState = sessionStorage.getItem('echodash_state');
-    
-    if (!state || state !== storedState) {
-        throw new Error('Invalid state parameter');
-    }
-    
-    if (urlParams.has('error')) {
-        console.error('Integration failed:', urlParams.get('error'));
-        return;
-    }
-    
-    if (urlParams.has('endpoint_url')) {
-        const endpointUrl = urlParams.get('endpoint_url');
-        // Save endpoint URL to your configuration
-        saveEndpointUrl(endpointUrl);
-        console.log('Endpoint configured:', endpointUrl);
-    }
+	const urlParams = new URLSearchParams(window.location.search);
+	const state = urlParams.get('state');
+	const storedState = sessionStorage.getItem('echodash_state');
+	
+	if (!state || state !== storedState) {
+		throw new Error('Invalid state parameter');
+	}
+	
+	if (urlParams.has('error')) {
+		console.error('Integration failed:', urlParams.get('error'));
+		return;
+	}
+	
+	if (urlParams.has('endpoint_url')) {
+		const endpointUrl = urlParams.get('endpoint_url');
+		// Save endpoint URL to your configuration
+		saveEndpointUrl(endpointUrl);
+		console.log('Endpoint configured:', endpointUrl);
+	}
 }
 ```
 
@@ -194,46 +194,46 @@ from django.http import HttpResponseBadRequest
 from django.views.decorators.csrf import csrf_exempt
 
 def initiate_echodash_integration(request):
-    """Redirect user to EchoDash"""
-    redirect_uri = request.build_absolute_uri('/integration/callback/')
-    state = secrets.token_urlsafe(32)
-    
-    # Store state in session for validation
-    request.session['echodash_state'] = state
-    
-    params = {
-        'source': 'My Python App',
-        'site_name': request.GET.get('site_name', 'My Site'),
-        'redirect_uri': redirect_uri,
-        'state': state,
-        'a': 'python_integration'
-    }
-    
-    url = f"https://echodash.com/endpoints/new?{urllib.parse.urlencode(params)}"
-    return redirect(url)
+	"""Redirect user to EchoDash"""
+	redirect_uri = request.build_absolute_uri('/integration/callback/')
+	state = secrets.token_urlsafe(32)
+	
+	# Store state in session for validation
+	request.session['echodash_state'] = state
+	
+	params = {
+		'source': 'My Python App',
+		'site_name': request.GET.get('site_name', 'My Site'),
+		'redirect_uri': redirect_uri,
+		'state': state,
+		'a': 'python_integration'
+	}
+	
+	url = f"https://echodash.com/endpoints/new?{urllib.parse.urlencode(params)}"
+	return redirect(url)
 
 @csrf_exempt
 def handle_callback(request):
-    """Handle callback from EchoDash"""
-    state = request.GET.get('state')
-    stored_state = request.session.get('echodash_state')
-    
-    if not state or state != stored_state:
-        return HttpResponseBadRequest('Invalid state parameter')
-    
-    if 'error' in request.GET:
-        # Handle error
-        return render(request, 'integration_error.html', {
-            'error': request.GET['error']
-        })
-    
-    if 'endpoint_url' in request.GET:
-        endpoint_url = request.GET['endpoint_url']
-        # Save to your model/configuration
-        save_endpoint_configuration(endpoint_url)
-        return render(request, 'integration_success.html', {
-            'endpoint_url': endpoint_url
-        })
+	"""Handle callback from EchoDash"""
+	state = request.GET.get('state')
+	stored_state = request.session.get('echodash_state')
+	
+	if not state or state != stored_state:
+		return HttpResponseBadRequest('Invalid state parameter')
+	
+	if 'error' in request.GET:
+		# Handle error
+		return render(request, 'integration_error.html', {
+			'error': request.GET['error']
+		})
+	
+	if 'endpoint_url' in request.GET:
+		endpoint_url = request.GET['endpoint_url']
+		# Save to your model/configuration
+		save_endpoint_configuration(endpoint_url)
+		return render(request, 'integration_success.html', {
+			'endpoint_url': endpoint_url
+		})
 ```
 
 ## Security Best Practices
