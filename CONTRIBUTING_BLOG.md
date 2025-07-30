@@ -17,7 +17,7 @@ Every post needs a header section and content section. Copy this template to sta
 slug: your-url-friendly-title
 title: Your Actual Title
 authors: [jack, alex]  # Use author IDs from authors.yml
-tags: [features, tutorial]  # Use existing tags or create new ones
+tags: [features, guides]  # Use existing tags from tags.yml
 image: /img/your-cover-image.jpg  # Optional
 description: A brief description for SEO and social sharing
 ---

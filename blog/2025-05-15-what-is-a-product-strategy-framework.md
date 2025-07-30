@@ -2,7 +2,7 @@
 slug: what-is-a-product-strategy-framework
 title: What is a Product Strategy Framework
 authors: [alex]
-tags: [product-strategy,product-management,product-development,strategy-framework,product-launch]
+tags: [product-strategy, product-management, product-development, guides]
 description: A simple guide to product strategy frameworks, how to choose the right one, and implement it effectively in your business.
 ---
 
