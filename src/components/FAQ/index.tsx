@@ -21,7 +21,7 @@ const faqs: FaqItem[] = [
   },
   {
     question: "How Does EchoDash Work?",
-    answer: "In Early Access, EchoDash is webhook based. Copy your unique webhook URL into any tool or service that can send webhooks. EchoDash uses machine learning to build a template for each event, showing the most important data points. You can then customize the template to fit your needs."
+    answer: "EchoDash is webhook based. Copy your unique webhook URL into any tool or service that can send webhooks. EchoDash uses machine learning to build a template for each event, showing the most important data points. You can then customize the template to fit your needs."
   },
   {
     question: "What's a webhook?",
@@ -33,7 +33,7 @@ const faqs: FaqItem[] = [
   },
   {
     question: "How much does it cost?",
-    answer: "During early access, EchoDash is completely free. After launch, the event feed will remain free forever. We'll add paid features later based on your feedback."
+    answer: "EchoDash's event feed is completely free forever. We'll add paid features later based on your feedback."
   },
   {
     question: "What's coming in future updates?",
