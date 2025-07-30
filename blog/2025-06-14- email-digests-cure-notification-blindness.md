@@ -2,7 +2,7 @@
 slug: email-digests-cure-notification-blindness
 title: Email Digests Cure Notification Blindness 
 authors: [alex]
-tags: [echodash, webhook-digests, email-digests, productivity-tools, startup-tools, automation, business-intelligence, reduce-notification-overload, webhook-notifications]
+tags: [echodash, notifications, automation, productivity]
 description: Save hours a week by setting up smart email digests. Here’s how EchoDash lets you filter the noise and stay informed — without notification blindness.
 ---
 

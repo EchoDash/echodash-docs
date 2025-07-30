@@ -2,7 +2,7 @@
 slug:  best-lms-for-small-business 
 title: Best LMS for Small Business
 authors: [alex]
-tags: [LMS,LMS-for-small-business,Learning-management-system,]
+tags: [small-business, business-tools, guides]
 description: What is the best learning management system for my small business?
 ---
 [Gmail](https://workspace.google.com/intl/en-US/gmail/) 
