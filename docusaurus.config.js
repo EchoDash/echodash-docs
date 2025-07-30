@@ -199,6 +199,7 @@ const config = {
       },
       prism: {
         theme: prismThemes.github,
+        additionalLanguages: ['php', 'python', 'bash'],
       },
       metadata: [
         {name: 'description', content: 'EchoDash - A real time events platform for everything you do online. See all your business activity in one place.'},
