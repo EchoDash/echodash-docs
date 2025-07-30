@@ -83,43 +83,59 @@ Common error values:
 /**
  * Redirect user to EchoDash to create endpoint
  */
-function redirect_to_echodash() {
-    $redirect_uri = admin_url('options-general.php?page=echodash');
-    $state = wp_create_nonce('echodash_integration');
-    $site_name = get_bloginfo('name');
-    
-    $params = http_build_query([
-        'source' => 'WordPress',
-        'site_name' => $site_name,
+function echodash_redirect_to_create_endpoint() {
+	$redirect_uri = admin_url( 'options-general.php?page=echodash' );
+	$state        = wp_create_nonce( 'echodash_integration' );
+	$site_name    = get_bloginfo( 'name' );
+
+	$args = array(
+        'source'       => 'WordPress',
+        'site_name'    => $site_name,
         'redirect_uri' => $redirect_uri,
-        'state' => $state,
-        'a' => 'plugin_install'
-    ]);
-    
-    $url = "https://echodash.com/endpoints/new?" . $params;
-    wp_redirect($url);
-    exit;
+        'state'        => $state,
+        'a'            => 'plugin_install',
+    );
+
+	$url = add_query_arg( $args, 'https://echodash.com/endpoints/new' );
+	wp_redirect( $url );
+	exit;
 }
 
 /**
  * Handle callback from EchoDash
  */
-function handle_echodash_callback() {
-    if (!isset($_GET['state']) || !wp_verify_nonce($_GET['state'], 'echodash_integration')) {
-        wp_die('Invalid state parameter');
-    }
-    
-    if (isset($_GET['error'])) {
-        add_admin_notice('EchoDash integration failed: ' . sanitize_text_field($_GET['error']), 'error');
-        return;
-    }
-    
-    if (isset($_GET['endpoint_url'])) {
-        $endpoint_url = sanitize_url($_GET['endpoint_url']);
-        update_option('echodash_endpoint_url', $endpoint_url);
-        add_admin_notice('EchoDash endpoint configured successfully!', 'success');
-    }
+function echodash_handle_callback() {
+	// Only process on our admin page
+	if ( ! isset( $_GET['page'] ) || 'echodash' !== $_GET['page'] ) {
+		return;
+	}
+
+	// Verify state parameter
+	if ( ! isset( $_GET['state'] ) || ! wp_verify_nonce( sanitize_text_field( wp_unslash( $_GET['state'] ) ), 'echodash_integration' ) ) {
+		wp_die( esc_html__( 'Invalid state parameter', 'echodash' ) );
+	}
+
+	if ( isset( $_GET['error'] ) ) {
+		$error_message = sprintf(
+			/* translators: %s: Error message from EchoDash */
+			__( 'EchoDash integration failed: %s', 'echodash' ),
+			sanitize_text_field( wp_unslash( $_GET['error'] ) )
+		);
+		add_settings_error( 'echodash', 'integration_error', $error_message, 'error' );
+		return;
+	}
+
+	if ( isset( $_GET['endpoint_url'] ) ) {
+		$endpoint_url = sanitize_url( wp_unslash( $_GET['endpoint_url'] ) );
+		update_option( 'echodash_endpoint_url', $endpoint_url );
+		
+		$success_message = __( 'EchoDash endpoint configured successfully!', 'echodash' );
+		add_settings_error( 'echodash', 'integration_success', $success_message, 'success' );
+	}
 }
+
+// Hook the callback handler to admin_init
+add_action( 'admin_init', 'echodash_handle_callback' );
 ```
 
 ### JavaScript/Node.js
