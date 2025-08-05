@@ -2,7 +2,7 @@
 sslug: Finding-Product-Market-Fit-Lessons-From-Doing-the-Hard-Way
 title: Finding Product-Market Fit Lessons From Doing the Hard Way 
 authors: [alex]
-tags: [pmf,pmf-startup,lean-startup,problem-solution-fit,product-market-fit,]
+tags: [startup-strategy, product-strategy]
 description: What actually is product market fit, actionable steps you can take.
 ---
 

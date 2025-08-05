@@ -1,3 +1,4 @@
+# Core Company & Product Tags
 news:
   label: News
   permalink: /news
@@ -18,102 +19,97 @@ echodash:
   permalink: /echodash
   description: Everything you need to know about EchoDash - the real-time events platform that connects all your business tools in one unified dashboard.
 
-slack:
-  label: Slack
-  permalink: /slack
-  description: Learn how EchoDash integrates with Slack to deliver real-time notifications and business events directly to your team communication channels.
+# Technology & Integration Tags
+integrations:
+  label: Integrations
+  permalink: /integrations
+  description: Learn how EchoDash integrates with popular business tools like Slack, WordPress, and other platforms to create a unified monitoring experience.
 
-software-stack:
-  label: Software Stack
-  permalink: /software-stack
-  description: Technical insights into EchoDash's architecture, development choices, and the technologies powering our real-time business events platform.
+dashboards:
+  label: Dashboards
+  permalink: /dashboards
+  description: Comprehensive guides on creating effective dashboards for business monitoring, analytics, and performance tracking with EchoDash.
 
-wp-agency:
-  label: WordPress Agency
-  permalink: /wp-agency
-  description: Resources and guides for WordPress agencies to leverage EchoDash for monitoring client websites, tracking user activity, and managing multiple sites.
+notifications:
+  label: Notifications
+  permalink: /notifications
+  description: Everything about EchoDash's notification system - email digests, real-time alerts, and managing notification preferences to stay informed without overwhelm.
 
-wp:
-  label: WordPress
-  permalink: /wp
-  description: Comprehensive information about EchoDash's WordPress integration, allowing you to monitor your WordPress site activity in real-time.
+apis:
+  label: APIs
+  permalink: /apis
+  description: Technical resources for developers working with EchoDash APIs, webhooks, and custom integrations for advanced business monitoring solutions.
 
-business-management:
-  label: Business Management
-  permalink: /business-management
-  description: Expert strategies, tips, and tools for effective business management, focusing on using real-time data to make better decisions with EchoDash.
+# Business & Industry Tags
+business-tools:
+  label: Business Tools
+  permalink: /business-tools
+  description: Discover powerful applications, software, and tools that help businesses operate more efficiently and integrate with EchoDash for comprehensive monitoring.
 
-free-apps:
-  label: Free Apps
-  permalink: /free-apps
-  description: Discover valuable free applications and tools that integrate with EchoDash to enhance your business monitoring and management capabilities.
-
-small-biz:
+small-business:
   label: Small Business
-  permalink: /small-biz
-  description: Specialized content for small business owners looking to leverage EchoDash for better oversight, efficiency, and growth without enterprise-level complexity.
+  permalink: /small-business
+  description: Specialized content for small business owners looking to leverage technology and monitoring tools for better oversight, efficiency, and growth.
 
-small-business-apps:
-  label: Small Business Apps
-  permalink: /small-business-apps
-  description: Curated applications specifically designed for small businesses that integrate with EchoDash to provide comprehensive activity monitoring and insights.
+automation:
+  label: Automation
+  permalink: /automation
+  description: Learn how to automate business processes, reduce manual work, and improve efficiency using EchoDash's monitoring capabilities and integrations.
 
-tools-for-small-business:
-  label: Tools for Small Business
-  permalink: /tools-for-small-business
-  description: Essential tools and resources that help small businesses thrive by providing better monitoring, analytics, and operational oversight through EchoDash.
+analytics:
+  label: Analytics
+  permalink: /analytics
+  description: Data analysis techniques, performance tracking, and business intelligence strategies to make better decisions with EchoDash's monitoring data.
 
-apps:
-  label: Apps
-  permalink: /apps
-  description: Explore the ecosystem of applications that connect with EchoDash to provide comprehensive monitoring and real-time event tracking for your business.
-
-software:
-  label: Software
-  permalink: /software
-  description: In-depth information about business software solutions that work with EchoDash to create a unified view of all your business activities and events.
-
-tools:
-  label: Tools
-  permalink: /tools
-  description: Discover powerful business tools that integrate with EchoDash to help you monitor, manage, and optimize your operations through real-time event tracking.
-
-company-owner:
-  label: Company Owner
-  permalink: /company-owner
-  description: Targeted insights and strategies for business owners to gain better visibility into operations, team performance, and customer interactions through EchoDash.
+# Product & Strategy Tags  
+product-strategy:
+  label: Product Strategy
+  permalink: /product-strategy
+  description: Strategic approaches to product planning, roadmapping, and execution, enhanced by EchoDash's real-time event monitoring and business intelligence.
 
 product-development:
   label: Product Development
   permalink: /product-development
   description: Best practices and strategies for product development teams using EchoDash to track development milestones, user feedback, and performance metrics.
 
-product-strategy:
-  label: Product Strategy
-  permalink: /product-strategy
-  description: Strategic approaches to product planning, roadmapping, and execution, enhanced by EchoDash's real-time event monitoring and business intelligence.
+startup-strategy:
+  label: Startup Strategy
+  permalink: /startup-strategy
+  description: Essential strategies for startups including product-market fit, lean methodology, and growth tactics enhanced by real-time business monitoring.
 
-digital-dashboard-examples:
-  label: Digital Dashboard Examples
-  permalink: /digital-dashboard-examples
-  description: Inspiring examples of digital dashboards created with EchoDash that provide businesses with actionable insights and real-time monitoring capabilities.
+# Industry-Specific Tags
+retail:
+  label: Retail
+  permalink: /retail
+  description: Specialized solutions for retail businesses to monitor store performance, inventory changes, sales metrics, and customer interactions through EchoDash.
 
-visualization-dashboard:
-  label: Visualization Dashboard
-  permalink: /visualization-dashboard
-  description: Techniques and best practices for creating effective data visualizations in EchoDash to better understand business metrics and performance trends.
+agencies:
+  label: Agencies
+  permalink: /agencies
+  description: Resources and guides for agencies managing multiple client accounts, tracking project performance, and monitoring client website activity with EchoDash.
 
-store-performance:
-  label: Store Performance
-  permalink: /store-performance
-  description: Comprehensive guides to monitoring and improving retail and e-commerce store performance metrics using EchoDash's real-time tracking capabilities.
+saas:
+  label: SaaS
+  permalink: /saas
+  description: Software as a Service industry insights, best practices, and how SaaS companies can leverage EchoDash for product monitoring and customer success.
 
-software-development-metrics:
-  label: Software Development Metrics
-  permalink: /software-development-metrics
-  description: Key performance indicators and metrics for software development teams to track using EchoDash, improving delivery times and quality assurance.
+wordpress:
+  label: WordPress
+  permalink: /wordpress
+  description: Comprehensive information about EchoDash's WordPress integration, monitoring WordPress sites, and managing multiple WordPress installations.
 
-retail-store:
-  label: Retail Store
-  permalink: /retail-store
-  description: Specialized solutions for retail businesses to monitor in-store activity, inventory changes, sales performance, and customer interactions through EchoDash.
+# Content Type Tags
+guides:
+  label: Guides
+  permalink: /guides
+  description: Step-by-step tutorials and comprehensive guides to help you get the most out of EchoDash and related business tools and strategies.
+
+tutorials:
+  label: Tutorials
+  permalink: /tutorials
+  description: Hands-on tutorials covering technical implementations, setup procedures, and practical applications of EchoDash features and integrations.
+
+productivity:
+  label: Productivity
+  permalink: /productivity
+  description: Tips, tools, and strategies to improve personal and team productivity, featuring apps and workflows that integrate with EchoDash monitoring.
