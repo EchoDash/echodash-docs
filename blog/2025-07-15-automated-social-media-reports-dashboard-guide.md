@@ -33,14 +33,15 @@ It shows you what’s working and what’s wasting time.
 
 Your **social media management dashboard** is where you plan content, schedule posts, collaborate with your team, and keep track of approvals.  
 
-<img width="923" height="765" alt="social-media management-dashboard" src="https://github.com/user-attachments/assets/e34cc672-e62b-48bc-957e-55804f99b3cb" />
+
+<img src="https://github.com/user-attachments/assets/e34cc672-e62b-48bc-957e-55804f99b3cb" />
 
 Example from [Hootsuite](https://www.hootsuite.com)
 
 
 When done right, your **social media management dashboard** connects directly to your **social media reporting dashboard** — so you see if what you planned actually worked.
 
-<img width="1536" height="1024" alt="echodash-social-media-analytics-dashboard" src="https://github.com/user-attachments/assets/747b0b17-28de-4bdd-93af-b13480eddc44" />
+<img src="https://github.com/user-attachments/assets/747b0b17-28de-4bdd-93af-b13480eddc44" />
 
 Example from [EchoDash](https://echodash.com/)
 
@@ -108,23 +109,23 @@ That’s where smart **digital marketing apps** make or break you.
 A few I love:
 - **Databox**: All-in-one dashboard, good for solopreneurs and small teams.
 
-<img width="1540" height="927" alt="social-media-dashboard-software-hero" src="https://github.com/user-attachments/assets/e5e0e994-640d-4467-9646-369cba3f7999" />
+<img src="https://github.com/user-attachments/assets/e5e0e994-640d-4467-9646-369cba3f7999" />
 
 - **Geckoboard**: Great if you want to throw your **social media analytics dashboard** on a TV screen for the whole team.
 
-<img width="1920" height="1080" alt="social-media-overview-dashboard-1" src="https://github.com/user-attachments/assets/66445157-c659-4a96-be1c-51f9a8d62954" />
+<img src="https://github.com/user-attachments/assets/66445157-c659-4a96-be1c-51f9a8d62954" />
 
 
 - **Looker Studio**: Free and customisable but needs more setup.
 
-<img width="764" height="424" alt="Looked Studio-Social-media-analytics-dashboard" src="https://github.com/user-attachments/assets/11bf1884-aee7-4b4a-b91d-dcc87b10ef36" />
+<img src="https://github.com/user-attachments/assets/11bf1884-aee7-4b4a-b91d-dcc87b10ef36" />
 
   
 - **[EchoDash](echodash.com)**: We’re building a feed-first alternative to the classic dashboard, with automated social media reports alongside everything else.
 
 These **digital marketing apps** make sure your **social dashboard** doesn’t rely on copy-paste from 5 tools. Automate it once, then get back to work.
 
-<img width="1536" height="1024" alt="echodash-social-media-analytics-dashboard" src="https://github.com/user-attachments/assets/d4699e3c-8d9a-4736-9c27-d343c2734d0b" />
+<img src="https://github.com/user-attachments/assets/d4699e3c-8d9a-4736-9c27-d343c2734d0b" />
 
 ## How Social Media Project Management Connects to Your Dashboard
 
