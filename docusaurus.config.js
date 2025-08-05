@@ -124,7 +124,7 @@ const config = {
           },
           {
             href: 'pathname:///users/sign_up',
-            label: 'Request Access',
+            label: 'Get Started',
             position: 'right',
             className: 'tw-btn request-access-link',
             target: null,
@@ -199,6 +199,7 @@ const config = {
       },
       prism: {
         theme: prismThemes.github,
+        additionalLanguages: ['php', 'python', 'bash'],
       },
       metadata: [
         {name: 'description', content: 'EchoDash - A real time events platform for everything you do online. See all your business activity in one place.'},
