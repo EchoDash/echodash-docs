@@ -255,7 +255,9 @@ How email digests help:
 
 Time saved: 4–6 hrs/week
 
-Problem: Juggling alerts across client toolsHow email digests help:
+Problem: Juggling alerts across client tools
+
+How email digests help:
 
 - View client site issues, plugin updates, and requests in one place
 - Manage multiple clients without logging in 10 times

@@ -3,6 +3,7 @@ id: wordpress
 title: WordPress Plugin
 description: Track user events and interactions from WordPress plugins with EchoDash analytics
 sidebar_label: WordPress
+sidebar_position: 1
 ---
 
 # EchoDash WordPress Plugin

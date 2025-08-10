@@ -3,6 +3,7 @@ id: echodash-plugin
 title: EchoDash WordPress Plugin
 description: This page has moved to WordPress Integration documentation
 sidebar_class_name: hidden
+sidebar_position: 0
 ---
 
 import { Redirect } from '@docusaurus/router';

@@ -38,7 +38,7 @@ Input: $ARGUMENTS (optional: date in YYYY-MM-DD format, defaults to today)
 
     <step id="4" name="check_dependabot_activity">
       <search>Recent Dependabot merges in git logs</search>
-      <pattern>grep -i "dependabot\|bump" from git logs</pattern>
+      <pattern>git log --since="$DATE" --grep="dependabot" --grep="bump" -i --oneline</pattern>
     </step>
   </phase>
 
