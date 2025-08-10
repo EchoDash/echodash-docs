@@ -241,12 +241,12 @@ const config = {
             from: '/docs',
             to: '/docs/intro',
           },
+          // Redirect old echodash-plugin docs to new WordPress integration location
+          {
+            from: '/docs/echodash-plugin',
+            to: '/docs/integrations/wordpress',
+          },
         ],
-        createRedirects(existingPath) {
-          // Create redirects for moved content
-          // This function runs for each existing path
-          return [];
-        },
       },
     ],
   ],

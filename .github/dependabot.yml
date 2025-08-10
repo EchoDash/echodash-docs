@@ -1,0 +1,87 @@
+# Dependabot configuration for echodash-docs
+# Documentation: https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  # Enable version updates for npm dependencies
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "tuesday"
+      time: "09:00"
+      timezone: "America/New_York"
+    # Group related updates together to reduce PR noise
+    groups:
+      docusaurus:
+        patterns:
+          - "@docusaurus/*"
+        update-types:
+          - "minor"
+          - "patch"
+      react:
+        patterns:
+          - "react*"
+        update-types:
+          - "minor"
+          - "patch"
+      eslint:
+        patterns:
+          - "*eslint*"
+          - "@typescript-eslint/*"
+        update-types:
+          - "minor"
+          - "patch"
+      build-tools:
+        patterns:
+          - "tailwindcss"
+          - "autoprefixer"
+          - "postcss"
+          - "copyfiles"
+        update-types:
+          - "minor"
+          - "patch"
+    # Allow up to 5 open pull requests at any time
+    open-pull-requests-limit: 5
+    # Add labels to pull requests
+    labels:
+      - "dependencies"
+      - "javascript"
+    # Set reviewers for dependency updates
+    reviewers:
+      - "alex"
+    # Rebase strategy for handling conflicts
+    rebase-strategy: "auto"
+    # Commit message preferences
+    commit-message:
+      prefix: "deps"
+      prefix-development: "deps-dev"
+      include: "scope"
+    # Ignore specific packages that might cause breaking changes
+    ignore:
+      # Ignore major version updates for core dependencies to avoid breaking changes
+      - dependency-name: "react"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "react-dom"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "@docusaurus/core"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "eslint"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "tailwindcss"
+        update-types: ["version-update:semver-major"]
+
+  # Enable version updates for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "tuesday"
+      time: "09:00"
+      timezone: "America/New_York"
+    labels:
+      - "dependencies"
+      - "github-actions"
+    commit-message:
+      prefix: "ci"
+      include: "scope"

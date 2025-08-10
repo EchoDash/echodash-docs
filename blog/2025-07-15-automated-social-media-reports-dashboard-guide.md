@@ -15,6 +15,7 @@ The solution for me has been **automated social media reports** and social media
 It helped me to stop making gut decisions, and invest in things that were working. 
 You see what moves the needle.
 
+<!--truncate-->
 
 ## What Is a Social Media Reporting Dashboard?
 

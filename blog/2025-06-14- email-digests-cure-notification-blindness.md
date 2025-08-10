@@ -18,8 +18,10 @@ but I’m sure straight away you know what I mean when you see that little red b
 has me nopeing out till later, that kind of notification overload has meant I’ve missed some pretty crucial things in
 the past, one I still remember, a particularly high value client needing help, being unintentionally ignored and churning.
 
-We’ve been working on a solution, 100% custom to your business email alerts. Skip to how to setup them up free, 
+We've been working on a solution, 100% custom to your business email alerts. Skip to how to setup them up free, 
 [here](https://echodash.com/docs/notifications/email-digests)
+
+<!--truncate-->
 
 ### What Are Email Digests in EchoDash?
 
@@ -203,12 +205,12 @@ Benefits: Less talking to people more time coding and staying inside.
 ![Sales-crm-users](https://github.com/user-attachments/assets/4ba35110-ca8e-46f0-8ebb-f59dab18242e)
 
 
-Problem: Leads falling through the cracks 
-Time saved: 3–5 hrs/week 
+Problem: Leads falling through the cracks
+Time saved: 3–5 hrs/week
 
 Digests could include:
 
-- New lead created 
+- New lead created
 - Inactive deal alert
 - Sales email reply
 -  Demo request
@@ -226,7 +228,7 @@ Time saved: 1–2 hrs/day
 
 — ads, email, SEO, socials, and analytics
 
- How email digests help:
+How email digests help:
 
 - One digest shows your campaign performance across tools
 - Focus on underperforming campaigns
@@ -236,8 +238,8 @@ Time saved: 1–2 hrs/day
 
 ![Finance-teams](https://github.com/user-attachments/assets/a3fe4c70-17c1-46fe-ae3b-27585f068dd5)
 
-Time saved: 2–3 hrs/week 
-Problem: Payment failures, invoices, and billing spread across systems 
+Time saved: 2–3 hrs/week
+Problem: Payment failures, invoices, and billing spread across systems
 
 How email digests help:
 
@@ -251,14 +253,16 @@ How email digests help:
 
 ![agencies,dev,marketing,wp](https://github.com/user-attachments/assets/5349b370-28cd-4152-8e60-c0e8197d7eff)
 
-Time saved: 4–6 hrs/week 
+Time saved: 4–6 hrs/week
 
-Problem: Juggling alerts across client tools How email digests help:
+Problem: Juggling alerts across client tools
+
+How email digests help:
 
 - View client site issues, plugin updates, and requests in one place
 - Manage multiple clients without logging in 10 times
 - Assign alerts to the right team member
-- See Client ticket opened 
+- See Client ticket opened
 - Get Downtime alerts
 
 

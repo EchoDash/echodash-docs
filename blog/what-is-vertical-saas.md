@@ -15,6 +15,8 @@ It’s the opposite of a generalist tool like Notion, Google Sheets or Slack.
 
 This piece unpacks what vertical SaaS is, how it's different from horizontal SaaS, and why it's a massive opportunity for founders in the next decade. Plus: **a breakdown of vertical SaaS examples, public companies, and embedded payments plays.**
 
+<!--truncate-->
+
 ---
 
 ## What is Vertical SaaS?

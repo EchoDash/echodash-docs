@@ -9,7 +9,9 @@ description: My ADHD brain has tested hundreds of apps. Here’s a non-fluffy, a
 ## TL;DR
 
 These are the **best productivity apps** I actually use (and keep using). 
-If you want to cut distractions, and organise (if you’re like me, the multiple to do lists, youtube videos, documents and others in one place.)  — especially if you’e on the ADHD spectrum like me — this list’s for you. Most are free or cheap. Most are cross-platform. 
+If you want to cut distractions, and organise (if you're like me, the multiple to do lists, youtube videos, documents and others in one place.)  — especially if you'e on the ADHD spectrum like me — this list's for you. Most are free or cheap. Most are cross-platform. 
+
+<!--truncate-->
 
 ---
 

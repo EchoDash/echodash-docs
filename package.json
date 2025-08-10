@@ -15,9 +15,9 @@
     "lint": "eslint --cache \"**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
-    "@docusaurus/core": "^3.8.0",
-    "@docusaurus/plugin-client-redirects": "^3.8.0",
-    "@docusaurus/preset-classic": "^3.8.0",
+    "@docusaurus/core": "^3.8.1",
+    "@docusaurus/plugin-client-redirects": "^3.8.1",
+    "@docusaurus/preset-classic": "^3.8.1",
     "@mdx-js/react": "^3.1.0",
     "axios": "^1.8.4",
     "clsx": "^2.0.0",
@@ -28,9 +28,9 @@
     "tailwindcss": "^3.4.17"
   },
   "devDependencies": {
-    "@docusaurus/eslint-plugin": "^3.8.0",
-    "@docusaurus/module-type-aliases": "^3.8.0",
-    "@docusaurus/types": "^3.8.0",
+    "@docusaurus/eslint-plugin": "^3.8.1",
+    "@docusaurus/module-type-aliases": "^3.8.1",
+    "@docusaurus/types": "^3.8.1",
     "@typescript-eslint/eslint-plugin": "^8.33.0",
     "@typescript-eslint/parser": "^8.33.0",
     "autoprefixer": "^10.4.21",

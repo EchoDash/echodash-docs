@@ -24,10 +24,12 @@ customer acquisition costs that's more than Life time value.
 - I’ve burned months building features that I wanted to believe were painkillers, but were vitamins and 
 or the unit economics didn’t work, thinking I could brute-force my way to product/market fit.
 
-This post is what I wish I’d read earlier. A no-BS guide to **product market fit stages**, 
+This post is what I wish I'd read earlier. A no-BS guide to **product market fit stages**, 
 **lean product development**, and the frameworks that actually help you get traction.
 
-## Why You’re Probably Faking It
+<!--truncate-->
+
+## Why You're Probably Faking It
 
 You can spend months building a thing, get a few signups, and
 convince yourself it’s working. I’ve done it. I’ve also seen other

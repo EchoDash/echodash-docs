@@ -36,6 +36,8 @@ server hosting fees, sys admin costs, plugin fees, etc."
 That said if you're looking for a low cost, low time/stress LMS for your small business. The best bet is via WordPress which will cost you a domain and hosting anywhere from $15+ a month.)
 using a Plugin like [LifterLMS](https://wordpress.org/plugins/lifterlms/) or [LearnDash](https://www.learndash.com/)
 
+<!--truncate-->
+
 ## [LifterLMS](https://wordpress.org/plugins/lifterlms/) 
 
 ![LifterLMS](https://github.com/user-attachments/assets/a13abb27-e145-4ddc-9c8e-c22e1c1c23b0)
