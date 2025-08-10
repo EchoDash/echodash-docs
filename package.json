@@ -35,7 +35,7 @@
     "@typescript-eslint/parser": "^8.33.0",
     "autoprefixer": "^10.4.21",
     "copyfiles": "^2.4.1",
-    "dotenv": "^16.5.0",
+    "dotenv": "^17.2.1",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.37.5",
     "postcss": "^8.5.4"
