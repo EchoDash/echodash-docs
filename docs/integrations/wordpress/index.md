@@ -71,6 +71,7 @@ Products: {order:items}
 - AffiliateWP - Track referrals and affiliate activity
 - bbPress - Track forum activity and engagement
 - BuddyPress - Follow member interactions
+- ClickWhale - Track outbound link clicks
 - Easy Digital Downloads - Monitor purchases and downloads
 - EDD Recurring - Track subscription payments
 - EDD Software Licensing - Monitor license activations
@@ -80,9 +81,11 @@ Products: {order:items}
 - LearnDash - Monitor course progress
 - LifterLMS - Follow student progress
 - Presto Player - Track video engagement
+- Pretty Links - Track outbound link clicks
+- SearchWP - Track search queries, results, and failed searches
 - WooCommerce - Track orders and customer behavior
 - WooCommerce Subscriptions - Monitor subscriptions
-- WordPress Core - Track updates to core and plugins
+- WordPress Core - Track updates to core and plugins, post status changes, and comments
 - Users - Track logins
 
 ![WordPress data is displayed in real time in the EchoDash dashboard](screenshot-1.jpg)
