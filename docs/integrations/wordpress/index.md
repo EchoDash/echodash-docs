@@ -1,7 +1,8 @@
 ---
+id: wordpress
 title: WordPress Plugin
 description: Track user events and interactions from WordPress plugins with EchoDash analytics
-sidebar_label: WordPress Plugin
+sidebar_label: WordPress
 ---
 
 # EchoDash WordPress Plugin
@@ -16,14 +17,19 @@ Track user events and interactions across your WordPress site with EchoDash anal
 4. Create a free EchoDash account or log in
 5. Your site will automatically connect and create a webhook endpoint
 
+![The EchoDash WordPress Plugin](screenshot-2.jpg)
+
 ## Configuring Events
 
 Each supported plugin integration has pre-configured events you can enable and customize:
 
 1. Select an integration (e.g. WooCommerce, Gravity Forms)
-2. Choose which events to track
-3. Customize the event name and data fields
-4. Click "Save Changes"
+2. Click Add Trigger to add a new trigger
+3. Select the event you want to track
+4. Customize the event name and data fields
+5. Click "Add Trigger" to save your changes
+
+![Configuring events for WooCommerce in the EchoDash WordPress Plugin](screenshot-3.jpg)
 
 ### Using Merge Fields
 
@@ -40,7 +46,7 @@ Common merge field sources:
 
 You can click the dropdown in the editor to see a list of available merge fields for the trigger.
 
-![Merge Fields Dropdown](learndash-merge-vars.jpg)
+![Configuring merge fields for LifterLMS in the EchoDash WordPress Plugin](screenshot-4.jpg)
 
 Example event data:
 
@@ -62,7 +68,6 @@ Products: {order:items}
 ## Supported Integrations
 
 - AffiliateWP - Track referrals and affiliate activity
-- Abandoned Cart - Monitor abandoned shopping carts  
 - bbPress - Track forum activity and engagement
 - BuddyPress - Follow member interactions
 - Easy Digital Downloads - Monitor purchases and downloads
@@ -76,8 +81,10 @@ Products: {order:items}
 - Presto Player - Track video engagement
 - WooCommerce - Track orders and customer behavior
 - WooCommerce Subscriptions - Monitor subscriptions
-- WordPress Core - Track updates
+- WordPress Core - Track updates to core and plugins
 - Users - Track logins
+
+![WordPress data is displayed in real time in the EchoDash dashboard](screenshot-1.jpg)
 
 ## FAQs
 

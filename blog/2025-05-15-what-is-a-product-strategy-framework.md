@@ -27,6 +27,7 @@ Tl:dr A product strategy framework is essentially a structured approach to defin
 ![product-strategy framework](https://github.com/user-attachments/assets/1df7e643-1b8e-47b7-b280-722693a80e27)
      [Source](https://www.productfaculty.com/the-product-strategy/why-use-the-product-strategy-playbook)
 
+<!--truncate-->
 
 ### Why Do You Need a Product Strategy Framework?
 
